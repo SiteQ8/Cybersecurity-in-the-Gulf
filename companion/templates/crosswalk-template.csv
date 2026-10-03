@@ -1,0 +1,2 @@
+harmonised_control_id,harmonised_control,spine_reference,obligation_1_instrument,obligation_1_reference,obligation_2_instrument,obligation_2_reference,obligation_3_instrument,obligation_3_reference,regional_addition,evidence,owner
+HC-05,Multi factor authentication for privileged and remote access,ISO/IEC 27001:2022 A.8.5,NCA ECC-2:2024,2-2 Identity and Access Management,PCI DSS v4.0.1,Req. 8.4,CBK CORF v1.0,(fill in),No,Privileged access review log and MFA configuration export,Identity team lead

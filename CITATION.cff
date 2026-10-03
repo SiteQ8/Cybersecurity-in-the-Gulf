@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: If you use this book in teaching, research or policy work, please cite it as below.
+title: "Cybersecurity in the Gulf: Foundations, Regulation, and Practice for the GCC States"
+authors:
+  - family-names: AlEnezi
+    given-names: Ali
+version: "2026 edition"
+date-released: 2026-10-03
+url: https://github.com/SiteQ8/Cybersecurity-in-the-Gulf
+keywords:
+  - cybersecurity
+  - Gulf Cooperation Council
+  - regulation
+  - critical infrastructure
+  - textbook
+preferred-citation:
+  type: book
+  title: "Cybersecurity in the Gulf: Foundations, Regulation, and Practice for the GCC States"
+  authors:
+    - family-names: AlEnezi
+      given-names: Ali
+  year: 2026
+  edition: "First edition"
