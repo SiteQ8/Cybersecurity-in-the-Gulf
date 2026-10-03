@@ -24,9 +24,18 @@ Paperback (7 by 10 inch) and Kindle editions on Amazon. The listing link will be
 3. National Cybersecurity Governance
 4. Laws, Regulations, and Standards
 
-**Appendices:** regulatory quick reference for the six states; a fourteen week course map; the open source companions; glossary.
+**Part II: Foundations with a Regional Lens**
 
-Every chapter opens with learning objectives and closes with a summary, key terms, review questions, research exercises and sources. Parts II to IV, covering the technical foundations through a regional lens, the sectors and operations, and the horizons of artificial intelligence, quantum and national strategy, follow in later editions.
+5. Principles of Security Engineering and Risk
+6. Identity, Access and National Digital Identity
+7. Cryptography and Trust Infrastructure
+8. Network and Cloud Security, Residency and Sovereignty
+9. Application Security and Open Banking
+10. Data Protection and Privacy Engineering
+
+**Appendices:** regulatory quick reference for the six states; a fourteen week course map; the open source companions; glossary; index.
+
+Every chapter opens with learning objectives and closes with a summary, key terms, review questions, research exercises and sources, and every chapter covers all six states. Parts III and IV, covering the sectors and operations and the horizons of artificial intelligence, quantum and national strategy, follow in later editions.
 
 ## What is here
 
