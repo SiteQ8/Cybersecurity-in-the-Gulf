@@ -33,19 +33,21 @@ Paperback (7 by 10 inch) and Kindle editions on Amazon. The listing link will be
 9. Application Security and Open Banking
 10. Data Protection and Privacy Engineering
 11. Security Architecture in Practice
+12. Zero Trust Architecture
+13. Post Quantum Migration
 
 **Part III: Sectors and Operations**
 
-12. Critical Infrastructure and Operational Technology
-13. Financial Services Security
-14. Government, Smart Cities and Digital Services
-15. Security Operations, Threat Intelligence and Incident Response
-16. People, Culture and Workforce
+14. Critical Infrastructure and Operational Technology
+15. Financial Services Security
+16. Government, Smart Cities and Digital Services
+17. Security Operations, Threat Intelligence and Incident Response
+18. People, Culture and Workforce
 
 **Part IV: Horizons**
 
-17. Emerging Technologies
-18. Cyber Resilience and National Strategy
+19. Emerging Technologies
+20. Cyber Resilience and National Strategy
 
 **Appendices:** regulatory quick reference for the six states; a fourteen week course map; the open source companions; three instruments in depth, Kuwait's National Basic Cybersecurity Controls (Decision No. 2 of 2026) with all 44 controls and a roadmap, Saudi Arabia's Essential Cybersecurity Controls ECC-2:2024 subdomain by subdomain, and the Central Bank of Kuwait's Cyber and Operational Resilience Framework baseline by baseline, each with a crosswalk; glossary; index.
 
