@@ -33,9 +33,22 @@ Paperback (7 by 10 inch) and Kindle editions on Amazon. The listing link will be
 9. Application Security and Open Banking
 10. Data Protection and Privacy Engineering
 
+**Part III: Sectors and Operations**
+
+11. Critical Infrastructure and Operational Technology
+12. Financial Services Security
+13. Government, Smart Cities and Digital Services
+14. Security Operations, Threat Intelligence and Incident Response
+15. People, Culture and Workforce
+
+**Part IV: Horizons**
+
+16. Emerging Technologies
+17. Cyber Resilience and National Strategy
+
 **Appendices:** regulatory quick reference for the six states; a fourteen week course map; the open source companions; glossary; index.
 
-Every chapter opens with learning objectives and closes with a summary, key terms, review questions, research exercises and sources, and every chapter covers all six states. Parts III and IV, covering the sectors and operations and the horizons of artificial intelligence, quantum and national strategy, follow in later editions.
+Every chapter opens with learning objectives and closes with a summary, key terms, review questions, research exercises and sources, and every chapter covers all six states.
 
 ## What is here
 

@@ -1,6 +1,6 @@
 # Course map
 
-This page maps *Cybersecurity in the Gulf* to a fourteen week semester course. Parts I and II, contained in this edition, support the first two units of the course; Part I can also be taught alone as a short course of four to six sessions. Chapters beyond Part II are listed as planned and will appear in later editions; lecturers can substitute readings from the sources listed at the end of each chapter until then.
+This page maps *Cybersecurity in the Gulf* to a fourteen week semester course. The whole book supports a semester; Part I can also be taught alone as a short course of four to six sessions, and Parts III and IV as a second semester for specialists.
 
 ## Suggested fourteen week syllabus
 
@@ -15,15 +15,15 @@ This page maps *Cybersecurity in the Gulf* to a fourteen week semester course. P
 | 7 | Cryptography and trust infrastructure | Chapter 7 | Cryptographic inventory with an open source tool | Lab report |
 | 8 | Network and cloud security, residency and sovereignty | Chapter 8 | Jurisdiction map for a cloud workload | Midterm |
 | 9 | Application security and open banking | Chapter 9 | API threat model | Lab report |
-| 10 | Critical infrastructure and operational technology | Chapter 11 (planned) | Desalination or LNG cyber range exercise | Lab report |
-| 11 | Financial services security | Chapter 12 (planned) | Notification register for a bank (Exercise 4.3) | Register submission |
-| 12 | Security operations, intelligence and incident response | Chapter 14 (planned) | Tabletop exercise with timed injects | Exercise debrief |
-| 13 | People, culture and workforce | Chapter 15 (planned) | Fraud calendar and awareness plan (Exercise 2.3) | Plan submission |
-| 14 | Horizons: artificial intelligence, quantum and national strategy | Chapters 16 and 17 (planned) | Policy brief for a national authority | Final brief |
+| 10 | Critical infrastructure and operational technology | Chapter 11 | Desalination or LNG cyber range exercise | Lab report |
+| 11 | Financial services security | Chapter 12 | Notification register for a bank (Exercise 4.3) | Register submission |
+| 12 | Security operations, intelligence and incident response | Chapter 14 | Tabletop exercise with timed injects | Exercise debrief |
+| 13 | People, culture and workforce | Chapter 15 | Fraud calendar and awareness plan (Exercise 2.3) | Plan submission |
+| 14 | Horizons: artificial intelligence, quantum and national strategy | Chapters 16 and 17 | Policy brief for a national authority | Final brief |
 
 Table B.1 Suggested fourteen week syllabus.
 
-## Learning outcomes for Parts I and II
+## Learning outcomes
 
 By the end of Part I a student should be able to:
 
@@ -38,6 +38,12 @@ By the end of Part I a student should be able to:
 9. Place a classified workload in the cloud under the residency and key control rules of a named state.
 10. Specify security requirements for a bought application and model the trust in an open banking flow.
 11. Build a data map and decide a cross border transfer under the laws of a named state.
+12. Define zones, conduits and controls for a plant and run an exercise on a cyber range.
+13. Map a bank's critical service, set an impact tolerance and design the test that proves it.
+14. Specify secure by design and procurement requirements for a national digital service.
+15. Engineer detection against the regional threat model, run a brand protection pipeline and lead a tabletop exercise.
+16. Design calendar driven awareness, a talent plan and the lawful boundary for research.
+17. Govern the adoption of artificial intelligence and other emerging technology, and assess a national strategy against the five pillars and the resilience test.
 
 ## Assessment guidance
 
