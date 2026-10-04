@@ -7,8 +7,10 @@
 <meta name="description" content="Cybersecurity in the Gulf: Foundations, Regulation, and Practice for the GCC States. A textbook from the region, for the region, in paperback and Kindle editions.">
 <meta property="og:title" content="Cybersecurity in the Gulf">
 <meta property="og:description" content="A cybersecurity textbook from the region, for the region: universities, government and practitioners across the six GCC states.">
-<meta property="og:image" content="https://siteq8.github.io/Cybersecurity-in-the-Gulf/cover.png">
+<meta property="og:image" content="https://cyberingulf.3li.info/cover.png">
 <title>Cybersecurity in the Gulf: a textbook from the region, for the region</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2712%27 fill=%27%230B1F3A%27/%3E%3Cpolygon points=%2732,8 56,32 32,56 8,32%27 fill=%27none%27 stroke=%27%23C9A227%27 stroke-width=%274%27/%3E%3Crect x=%2715%27 y=%2715%27 width=%2734%27 height=%2734%27 fill=%27none%27 stroke=%27%23C9A227%27 stroke-width=%274%27/%3E%3C/svg%3E">
+<link rel="canonical" href="https://cyberingulf.3li.info/">
 <style>
 :root { --navy:#0B1F3A; --navy2:#132E55; --gold:#C9A227; --sand:#F4EFE6; --ink:#1E293B; --teal:#0F766E; --slate:#475569; --line:#E2E8F0; --paper:#FFFFFF; }
 * { box-sizing:border-box; }
@@ -51,6 +53,17 @@ pre { background:var(--navy); color:#fff; padding:16px 18px; border-radius:6px; 
 code { font-family:"JetBrains Mono",Menlo,Consolas,monospace; }
 footer { background:var(--sand); padding:28px 24px; font-size:15px; color:var(--slate); }
 footer .wrap { max-width:1100px; margin:0 auto; }
+.stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin:28px 0 8px; }
+.stat { background:var(--sand); border-top:3px solid var(--gold); padding:14px 16px; }
+.stat b { display:block; font-family:Inter,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; font-size:30px; color:var(--navy); line-height:1.1; }
+.stat span { font-size:14px; color:var(--slate); }
+ol.chapters li.part { padding:22px 0 6px 0; counter-increment:none; border-top:0; }
+ol.chapters li.part::before { content:none; }
+ol.chapters li.part h3 { font-size:15px; color:var(--gold); letter-spacing:.06em; text-transform:uppercase; margin:0; }
+.teaser { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); gap:32px; align-items:center; }
+.teaser img { width:100%; height:auto; border:1px solid var(--line); border-radius:8px; }
+.isbn { font-family:Inter,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; font-size:14px; color:var(--sand); margin-top:10px; }
+@media (max-width:820px) { .teaser { grid-template-columns:1fr; } }
 @media (max-width:820px) { .hero .wrap { grid-template-columns:1fr; padding-top:40px; } .hero img { order:-1; max-width:220px; } .readers { grid-template-columns:1fr; } }
 @media (prefers-reduced-motion:reduce) { * { transition:none !important; } }
 </style>
@@ -68,6 +81,7 @@ footer .wrap { max-width:1100px; margin:0 auto; }
         <a class="button secondary" href="https://github.com/SiteQ8/Cybersecurity-in-the-Gulf">Companion materials</a>
       </div>
       <p class="author">Ali AlEnezi, 2026 edition. Paperback and Kindle.</p>
+      <p class="isbn">ISBN 979-8178793312 &nbsp;·&nbsp; Independently published &nbsp;·&nbsp; 7 by 10 inches, over 330 pages</p>
     </div>
     <img src="cover.png" alt="The cover: Cybersecurity in the Gulf, on deep navy with a gold star and cross lattice" width="300" height="429">
   </div>
@@ -77,6 +91,13 @@ footer .wrap { max-width:1100px; margin:0 auto; }
   <section id="buy-note">
     <h2>Where to buy</h2>
     <p>Paperback, 7 by 10 inches, and Kindle. The Amazon listing link will appear here the day the book goes on sale. The book is sold, not downloaded: nothing on this site or in the companion repository contains the text.</p>
+    <div class="stats">
+      <div class="stat"><b>23</b><span>chapters in four parts</span></div>
+      <div class="stat"><b>6</b><span>states covered in every chapter</span></div>
+      <div class="stat"><b>12</b><span>appendices, four instruments in depth</span></div>
+      <div class="stat"><b>37</b><span>diagrams drawn for the book</span></div>
+      <div class="stat"><b>69</b><span>exercises and review sets</span></div>
+    </div>
   </section>
 
   <section>
@@ -88,10 +109,12 @@ footer .wrap { max-width:1100px; margin:0 auto; }
   <section>
     <h2>Inside the 2026 edition: twenty three chapters</h2>
     <ol class="chapters">
+      <li class="part"><h3>Part I: The Gulf Cyber Landscape</h3></li>
       <li><h3>The Gulf as a Cyber Theatre</h3><p>Six states, one neighbourhood; the dependency stack of critical infrastructure; the six amplifiers that shape the region's risk; the digital transformation wave; what maturity indices measure and miss.</p></li>
       <li><h3>Threat Actors and Landmark Incidents</h3><p>The adversary spectrum; Shamoon and its return; the Triton safety system attack; the Qatar News Agency incident; the hacktivist era from 2023 through the 2026 conflict spillover; ransomware and fraud; the pattern across all of it.</p></li>
       <li><h3>National Cybersecurity Governance</h3><p>Three governance archetypes; the national authority, CERT, strategy and baseline of each state; a side by side comparison; the GCC ministerial committee, the Arab council and the international structures; how to engage the authorities.</p></li>
       <li><h3>Laws, Regulations, and Standards</h3><p>The legal stack; cybercrime statutes; data protection regimes and free zones; national control baselines; central banks, telecoms, cloud and residency; international standards; the crosswalk method; the incident notification register.</p></li>
+      <li class="part"><h3>Part II: Foundations with a Regional Lens</h3></li>
       <li><h3>Principles of Security Engineering and Risk</h3><p>Safety and resilience as security properties; threat modelling with a state aligned adversary assumed; risk management as a regulatory obligation; the design principles the region's incidents tested; the architect's role in a vendor heavy region; assurance within the cybercrime laws.</p></li>
       <li><h3>Identity, Access and National Digital Identity</h3><p>The identity lifecycle in a high turnover workforce; authentication ranked by resistance to the region's fraud; privileged and third party access; the six national identity platforms and their shared architecture; federation; the fraud patterns and the controls that defeat them.</p></li>
       <li><h3>Cryptography and Trust Infrastructure</h3><p>Building blocks; the global and national public key infrastructures; certificate lifetimes and Certificate Transparency; keys, hardware security modules and national cryptographic standards; a post quantum readiness programme.</p></li>
@@ -101,6 +124,7 @@ footer .wrap { max-width:1100px; margin:0 auto; }
       <li><h3>Security Architecture in Practice</h3><p>The architect's job in a region that buys its systems; the principles the region does not negotiate; the review path with three artefacts and three gates; reference architectures; assessing vendor applications; the anti patterns that keep returning.</p></li>
       <li><h3>Zero Trust Architecture</h3><p>What zero trust is and is not; why the region's incidents argue for it; identity foundation, device posture, policy engine, brokered access, segmentation and telemetry; a programme sequenced by consequence; the plant and the cloud; the measures a board can read.</p></li>
       <li><h3>Post Quantum Migration</h3><p>The threat stated honestly; the 2024 standards, hybrid deployments and the 2030 and 2035 timelines; where vulnerable cryptography hides, ranked by lifetime; the cryptographic bill of materials as first deliverable; migrating transport, hardware, PKI, applications, firmware, payments and archives; governing the programme.</p></li>
+      <li class="part"><h3>Part III: Sectors and Operations</h3></li>
       <li><h3>Critical Infrastructure and Operational Technology</h3><p>The industrial estate of the six states; how operational technology differs; IEC 62443 and the regional controls; the attack patterns that reached plants; the controls that matter most; incident response and cyber ranges.</p></li>
       <li><h3>Telecommunications and Digital Infrastructure</h3><p>The operators and regulators; submarine cables and the Red Sea chokepoint; signalling abuse, fake base stations and SIM swap; registries, exchange points, routing and time; national network resilience; the operators as the region's security providers.</p></li>
       <li><h3>Healthcare Security</h3><p>The six health systems and their national platforms; health data as the most sensitive category; the hospital as a cyber-physical estate; the Kuwait Ministry of Health case; insurers, laboratories and device manufacturers; what the pandemic applications taught.</p></li>
@@ -109,10 +133,27 @@ footer .wrap { max-width:1100px; margin:0 auto; }
       <li><h3>Security Operations, Threat Intelligence and Incident Response</h3><p>Operations engineered against the regional threat model; intelligence requirements and sources; brand protection from the certificate; the incident lifecycle with notification and communications tracks; exercises and metrics.</p></li>
       <li><h3>Offensive Security and Assurance</h3><p>The legal frame for testing in the six states; the assurance ladder from scanning to intelligence led red teaming; scoping tests of applications, networks, people, sites, cloud and plants without harm; findings to closure; building the capability.</p></li>
       <li><h3>People, Culture and Workforce</h3><p>Awareness that changes behaviour; insider risk in an expatriate workforce; national talent programmes and the universities' task; women in cybersecurity; ethics, law and research; leading security.</p></li>
+      <li class="part"><h3>Part IV: Horizons</h3></li>
       <li><h3>Emerging Technologies</h3><p>Artificial intelligence on both sides of the contest; quantum in context; fifth generation networks and the Internet of things; space systems and navigation; a method for adopting technology securely.</p></li>
       <li><h3>Cyber Resilience and National Strategy</h3><p>From compliance to resilience; the six national strategies compared; public private partnership; regional cooperation and harmonisation; the Gulf in the international order; the road ahead.</p></li>
     </ol>
     <div class="appx"><p>Appendices: a regulatory quick reference for all six states, a fourteen week course map, the open source companions used in the exercises, four instruments treated in depth (Kuwait's National Basic Cybersecurity Controls, Saudi Arabia's ECC-2:2024, the Central Bank of Kuwait's resilience framework and Qatar's National Information Assurance Standard), a chronology, acronyms, a research agenda for universities, a glossary and an index.</p></div>
+  </section>
+
+  <section>
+    <h2>Drawn for the region</h2>
+    <div class="teaser">
+      <img src="map.png" alt="Map of the six GCC states with each national cybersecurity authority and its founding year" width="1100" height="760">
+      <div>
+        <p>Every diagram in the book was drawn for it: the dependency stack of Gulf infrastructure, the Triton intrusion path, the three governance archetypes, the legal stack, the first 72 hours of an incident, the plant by Purdue level, the hospital as a cyber-physical estate, the assurance ladder, and this map of the six national authorities with the year each was established.</p>
+        <p>Eight stories, told plainly, run through Chapter 2: Dhahran on the twenty seventh night of Ramadan, Ras Laffan two weeks later, the plant that stopped itself, Doha after midnight, Kuwait's two Septembers, Manama's summer of 2019, the Emirates' hundred hours, and Muscat, the attack that did not happen.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>For universities</h2>
+    <p>The book was written to be taught. Each chapter opens with learning objectives and closes with a summary, key terms, review questions, research exercises and link checked sources, and every chapter covers all six states. A fourteen week course map with learning outcomes is in the companion, and lecturers who adopt the book can request a question bank with answers and a lecture deck for every chapter through the repository. A research agenda for the region's universities is Appendix J.</p>
   </section>
 
   <section>
@@ -153,7 +194,7 @@ and Practice for the GCC States. First edition.</code></pre>
 </main>
 
 <footer>
-  <div class="wrap">Copyright 2026 Ali AlEnezi. All rights reserved. Set in Pagella, Inter and JetBrains Mono. Diagrams and cover by the author.</div>
+  <div class="wrap">Copyright 2026 Ali AlEnezi. All rights reserved. ISBN 979-8178793312. Imprint: Independently published. Set in Pagella, Inter and JetBrains Mono. Diagrams and cover by the author. cyberingulf.3li.info</div>
 </footer>
 </body>
 </html>

@@ -13,7 +13,7 @@ This repository is the public companion to the book. It carries the table of con
 
 ## Where to buy
 
-Paperback (7 by 10 inch) and Kindle editions on Amazon. The listing link will be added here when the book goes on sale.
+Paperback (7 by 10 inch) and Kindle editions on Amazon. ISBN 979-8178793312, imprint Independently published. The listing link will be added here when the book goes on sale. Companion site: https://cyberingulf.3li.info
 
 ## Contents of the 2026 edition
 
