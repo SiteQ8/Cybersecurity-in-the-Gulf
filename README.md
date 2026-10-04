@@ -44,14 +44,15 @@ Paperback (7 by 10 inch) and Kindle editions on Amazon. The listing link will be
 17. Financial Services Security
 18. Government, Smart Cities and Digital Services
 19. Security Operations, Threat Intelligence and Incident Response
-20. People, Culture and Workforce
+20. Offensive Security and Assurance
+21. People, Culture and Workforce
 
 **Part IV: Horizons**
 
-21. Emerging Technologies
-22. Cyber Resilience and National Strategy
+22. Emerging Technologies
+23. Cyber Resilience and National Strategy
 
-**Appendices:** regulatory quick reference for the six states; a fourteen week course map; the open source companions; four instruments in depth, Kuwait's National Basic Cybersecurity Controls (Decision No. 2 of 2026) with all 44 controls and a roadmap, Saudi Arabia's Essential Cybersecurity Controls ECC-2:2024 subdomain by subdomain, the Central Bank of Kuwait's Cyber and Operational Resilience Framework baseline by baseline, and Qatar's National Information Assurance Standard domain by domain, each with a crosswalk; a chronology of Gulf cybersecurity from 1981 to 2026; acronyms; a research agenda for the region's universities; glossary; index.
+**Appendices:** regulatory quick reference for the six states; a fourteen week course map; the open source companions; four instruments in depth, Kuwait's National Basic Cybersecurity Controls (Decision No. 2 of 2026) with all 44 controls and a roadmap, Saudi Arabia's Essential Cybersecurity Controls ECC-2:2024 subdomain by subdomain, the Central Bank of Kuwait's Cyber and Operational Resilience Framework baseline by baseline, and Qatar's National Information Assurance Standard domain by domain, each with a crosswalk; the Emirati, Bahraini and Omani instruments; a chronology of Gulf cybersecurity from 1981 to 2026; acronyms; a research agenda for the region's universities; the notification clocks the instruments state in numbers; glossary; index.
 
 Every chapter opens with learning objectives and closes with a summary, key terms, review questions, research exercises and sources, and every chapter covers all six states.
 
@@ -63,6 +64,10 @@ Every chapter opens with learning objectives and closes with a summary, key term
 | [`companion/templates/`](companion/templates/) | Spreadsheet templates for the regime inventory, the crosswalk and the incident notification register used in the Chapter 4 exercises |
 | [`companion/open-source-tools.md`](companion/open-source-tools.md) | The open source tools referred to in the exercises |
 | [`ERRATA.md`](ERRATA.md) | Corrections since printing |
+
+## For lecturers
+
+A question bank with answers (three multiple choice items and a short answer prompt per chapter) is available to lecturers who have adopted the book. Request it through an issue in this repository stating your institution and course.
 
 ## Errata
 
