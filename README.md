@@ -69,6 +69,10 @@ Every chapter opens with learning objectives and closes with a summary, key term
 
 A question bank with answers (three multiple choice items and a short answer prompt per chapter) and a set of lecture slides, one deck per chapter, are available to lecturers who have adopted the book. Request it through an issue in this repository stating your institution and course.
 
+## About the author
+
+Ali AlEnezi is a senior security architect in Kuwait. He leads security architecture at the largest financial institution in the country, chairs the Cyber Risk and Security Committee serving Kuwait and the Gulf, served on the board of one of the largest information technology companies in Kuwait, and maintains a portfolio of open source security tools for the region.
+
 ## Errata
 
 Laws, regulations and frameworks in the region are reissued every year. If you find an error or an instrument that has changed, open an issue with the chapter and page, the sentence as printed, the correction and the official source. Corrections are listed in `ERRATA.md` and incorporated in the next printing, with credit.
