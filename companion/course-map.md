@@ -12,14 +12,14 @@ This page maps *Cybersecurity in the Gulf* to a fourteen week semester course. T
 | 4 | Laws, regulations and standards | Chapter 4 | Regime inventory and a one domain crosswalk (Exercises 4.1 and 4.2) | Crosswalk submission |
 | 5 | Principles of security engineering and risk | Chapter 5 | Risk register for a Gulf utility | Quiz 1 |
 | 6 | Identity, access and national digital identity | Chapter 6 | Threat model of a national identity application | Short report |
-| 7 | Cryptography and trust infrastructure | Chapter 7 | Cryptographic inventory with an open source tool | Lab report |
-| 8 | Network, cloud and security architecture | Chapters 8 and 11 | Jurisdiction map for a cloud workload; the first gate review (Exercise 11.1) | Midterm |
+| 7 | Cryptography, trust infrastructure and post quantum migration | Chapters 7 and 13 | Cryptographic bill of materials with an open source tool (Exercise 13.1) | Lab report |
+| 8 | Network, cloud, security architecture and zero trust | Chapters 8, 11 and 12 | Jurisdiction map for a cloud workload; the first gate review (Exercise 11.1); the maturity assessment (Exercise 12.1) | Midterm |
 | 9 | Application security and open banking | Chapter 9 | API threat model | Lab report |
-| 10 | Critical infrastructure and operational technology | Chapter 12 | Desalination or LNG cyber range exercise | Lab report |
-| 11 | Financial services security | Chapter 13 | Notification register for a bank (Exercise 4.3) | Register submission |
-| 12 | Security operations, intelligence and incident response | Chapter 15 | Tabletop exercise with timed injects | Exercise debrief |
-| 13 | People, culture and workforce | Chapter 16 | Fraud calendar and awareness plan (Exercise 2.3) | Plan submission |
-| 14 | Horizons: artificial intelligence, quantum and national strategy | Chapters 17 and 18 | Policy brief for a national authority | Final brief |
+| 10 | Critical infrastructure and operational technology | Chapter 14 | Desalination or LNG cyber range exercise | Lab report |
+| 11 | Financial services security | Chapter 15 | Notification register for a bank (Exercise 4.3) | Register submission |
+| 12 | Security operations, intelligence and incident response | Chapter 17 | Tabletop exercise with timed injects | Exercise debrief |
+| 13 | People, culture and workforce | Chapter 18 | Fraud calendar and awareness plan (Exercise 2.3) | Plan submission |
+| 14 | Horizons: artificial intelligence, quantum and national strategy | Chapters 19 and 20 | Policy brief for a national authority | Final brief |
 
 Table B.1 Suggested fourteen week syllabus.
 
@@ -44,7 +44,9 @@ By the end of Part I a student should be able to:
 15. Engineer detection against the regional threat model, run a brand protection pipeline and lead a tabletop exercise.
 16. Design calendar driven awareness, a talent plan and the lawful boundary for research.
 17. Run a security architecture review with three artefacts and three gates and assess a vendor application against the frameworks.
-18. Govern the adoption of artificial intelligence and other emerging technology, and assess a national strategy against the five pillars and the resilience test.
+18. Sequence a zero trust programme by consequence and measure it with access indicators.
+19. Build a cryptographic bill of materials, rank by lifetime and plan a post quantum migration by layer.
+20. Govern the adoption of artificial intelligence and other emerging technology, and assess a national strategy against the five pillars and the resilience test.
 
 ## Assessment guidance
 
