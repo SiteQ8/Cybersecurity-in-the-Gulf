@@ -49,7 +49,7 @@ Paperback (7 by 10 inch) and Kindle editions on Amazon. The listing link will be
 19. Emerging Technologies
 20. Cyber Resilience and National Strategy
 
-**Appendices:** regulatory quick reference for the six states; a fourteen week course map; the open source companions; three instruments in depth, Kuwait's National Basic Cybersecurity Controls (Decision No. 2 of 2026) with all 44 controls and a roadmap, Saudi Arabia's Essential Cybersecurity Controls ECC-2:2024 subdomain by subdomain, and the Central Bank of Kuwait's Cyber and Operational Resilience Framework baseline by baseline, each with a crosswalk; glossary; index.
+**Appendices:** regulatory quick reference for the six states; a fourteen week course map; the open source companions; four instruments in depth, Kuwait's National Basic Cybersecurity Controls (Decision No. 2 of 2026) with all 44 controls and a roadmap, Saudi Arabia's Essential Cybersecurity Controls ECC-2:2024 subdomain by subdomain, the Central Bank of Kuwait's Cyber and Operational Resilience Framework baseline by baseline, and Qatar's National Information Assurance Standard domain by domain, each with a crosswalk; a chronology of Gulf cybersecurity from 1981 to 2026; acronyms; a research agenda for the region's universities; glossary; index.
 
 Every chapter opens with learning objectives and closes with a summary, key terms, review questions, research exercises and sources, and every chapter covers all six states.
 
