@@ -67,7 +67,7 @@ Every chapter opens with learning objectives and closes with a summary, key term
 
 ## For lecturers
 
-A question bank with answers (three multiple choice items and a short answer prompt per chapter) is available to lecturers who have adopted the book. Request it through an issue in this repository stating your institution and course.
+A question bank with answers (three multiple choice items and a short answer prompt per chapter) and a set of lecture slides, one deck per chapter, are available to lecturers who have adopted the book. Request it through an issue in this repository stating your institution and course.
 
 ## Errata
 
