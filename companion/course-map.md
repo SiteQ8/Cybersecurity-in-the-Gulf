@@ -13,13 +13,13 @@ This page maps *Cybersecurity in the Gulf* to a fourteen week semester course. T
 | 5 | Principles of security engineering and risk | Chapter 5 | Risk register for a Gulf utility | Quiz 1 |
 | 6 | Identity, access and national digital identity | Chapter 6 | Threat model of a national identity application | Short report |
 | 7 | Cryptography and trust infrastructure | Chapter 7 | Cryptographic inventory with an open source tool | Lab report |
-| 8 | Network and cloud security, residency and sovereignty | Chapter 8 | Jurisdiction map for a cloud workload | Midterm |
+| 8 | Network, cloud and security architecture | Chapters 8 and 11 | Jurisdiction map for a cloud workload; the first gate review (Exercise 11.1) | Midterm |
 | 9 | Application security and open banking | Chapter 9 | API threat model | Lab report |
-| 10 | Critical infrastructure and operational technology | Chapter 11 | Desalination or LNG cyber range exercise | Lab report |
-| 11 | Financial services security | Chapter 12 | Notification register for a bank (Exercise 4.3) | Register submission |
-| 12 | Security operations, intelligence and incident response | Chapter 14 | Tabletop exercise with timed injects | Exercise debrief |
-| 13 | People, culture and workforce | Chapter 15 | Fraud calendar and awareness plan (Exercise 2.3) | Plan submission |
-| 14 | Horizons: artificial intelligence, quantum and national strategy | Chapters 16 and 17 | Policy brief for a national authority | Final brief |
+| 10 | Critical infrastructure and operational technology | Chapter 12 | Desalination or LNG cyber range exercise | Lab report |
+| 11 | Financial services security | Chapter 13 | Notification register for a bank (Exercise 4.3) | Register submission |
+| 12 | Security operations, intelligence and incident response | Chapter 15 | Tabletop exercise with timed injects | Exercise debrief |
+| 13 | People, culture and workforce | Chapter 16 | Fraud calendar and awareness plan (Exercise 2.3) | Plan submission |
+| 14 | Horizons: artificial intelligence, quantum and national strategy | Chapters 17 and 18 | Policy brief for a national authority | Final brief |
 
 Table B.1 Suggested fourteen week syllabus.
 
@@ -43,7 +43,8 @@ By the end of Part I a student should be able to:
 14. Specify secure by design and procurement requirements for a national digital service.
 15. Engineer detection against the regional threat model, run a brand protection pipeline and lead a tabletop exercise.
 16. Design calendar driven awareness, a talent plan and the lawful boundary for research.
-17. Govern the adoption of artificial intelligence and other emerging technology, and assess a national strategy against the five pillars and the resilience test.
+17. Run a security architecture review with three artefacts and three gates and assess a vendor application against the frameworks.
+18. Govern the adoption of artificial intelligence and other emerging technology, and assess a national strategy against the five pillars and the resilience test.
 
 ## Assessment guidance
 
