@@ -17,9 +17,9 @@ This page maps *Cybersecurity in the Gulf* to a fourteen week semester course. T
 | 9 | Application security and open banking | Chapter 9 | API threat model | Lab report |
 | 10 | Critical infrastructure: plants, networks and hospitals | Chapters 14, 15 and 16 | Desalination or LNG cyber range exercise; the connectivity dependency statement (Exercise 15.1) | Lab report |
 | 11 | Financial services security | Chapter 17 | Notification register for a bank (Exercise 4.3) | Register submission |
-| 12 | Security operations, intelligence and incident response | Chapter 19 | Tabletop exercise with timed injects | Exercise debrief |
-| 13 | People, culture and workforce | Chapter 20 | Fraud calendar and awareness plan (Exercise 2.3) | Plan submission |
-| 14 | Horizons: artificial intelligence, quantum and national strategy | Chapters 21 and 22 | Policy brief for a national authority | Final brief |
+| 12 | Security operations, incident response and offensive assurance | Chapters 19 and 20 | Tabletop exercise with timed injects; rules of engagement (Exercise 20.1) | Exercise debrief |
+| 13 | People, culture and workforce | Chapter 21 | Fraud calendar and awareness plan (Exercise 2.3) | Plan submission |
+| 14 | Horizons: artificial intelligence, quantum and national strategy | Chapters 22 and 23 | Policy brief for a national authority | Final brief |
 
 Table B.1 Suggested fourteen week syllabus.
 
@@ -47,7 +47,8 @@ By the end of Part I a student should be able to:
 18. Sequence a zero trust programme by consequence and measure it with access indicators.
 19. Build a cryptographic bill of materials, rank by lifetime and plan a post quantum migration by layer.
 20. State a national network's dependence on submarine cables and design for its loss, and secure a hospital as a cyber-physical estate with a rehearsed downtime procedure.
-21. Govern the adoption of artificial intelligence and other emerging technology, and assess a national strategy against the five pillars and the resilience test.
+21. Choose the right rung of the assurance ladder, write rules of engagement within the cybercrime laws and manage findings to closure.
+22. Govern the adoption of artificial intelligence and other emerging technology, and assess a national strategy against the five pillars and the resilience test.
 
 ## Assessment guidance
 
