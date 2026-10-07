@@ -100,6 +100,14 @@ section { padding: 92px 0; }
 .box nav { display: flex; gap: 22px; font-family: var(--sans); font-size: 15px; }
 .box nav a { color: var(--gold-soft); }
 
+/* the wall of chapter openers */
+.wall-title { font-size: 26px; margin: 72px 0 10px; }
+.wall-lead { font-size: 19px; line-height: 1.6; max-width: 66ch; color: var(--slate); }
+.wall { list-style: none; padding: 0; margin: 30px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(196px, 1fr)); gap: 26px 20px; }
+.wall img { width: 100%; aspect-ratio: 2 / 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--line); background: var(--night); }
+.wall span { display: block; font-family: var(--sans); font-size: 15px; line-height: 1.35; color: var(--ink); margin-top: 10px; }
+.wall b { color: var(--gold-ink); margin-right: 7px; font-weight: 800; }
+
 /* every state */
 .states { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 56px; align-items: center; }
 .states img { border-radius: 10px; border: 1px solid var(--line); }
@@ -198,6 +206,9 @@ footer .cols { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 
   body { font-size: 18px; }
   .pages { grid-template-columns: repeat(6, 62%); overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; }
   .pages a { scroll-snap-align: start; }
+  .wall { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 12px; }
+  .wall span { font-size: 13.5px; }
+  .wall-title { margin-top: 52px; }
   .parts { grid-template-columns: 1fr; }
   .mark { font-size: 15px; }
   .mark .full { display: none; }
@@ -246,22 +257,49 @@ footer .cols { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 
       <h2>Look inside</h2>
       <p class="lead">Six pages from the paperback, exactly as printed. Select a page to read it at full size.</p>
       <div class="pages">
-        <a href="#page-1"><img src="img/look-1-thumb.webp" width="460" height="657" loading="lazy" alt="The opening page of Part I"><span>Each part opens with original art.</span></a>
-        <a href="#page-2"><img src="img/look-2-thumb.webp" width="460" height="657" loading="lazy" alt="The opening page of Chapter 1 with its learning objectives"><span>Every chapter starts with learning objectives.</span></a>
+        <a href="#page-1"><img src="img/look-1-thumb.webp" width="460" height="657" loading="lazy" alt="The opening page of Part I"><span>Each part opens with its art and its chapters.</span></a>
+        <a href="#page-2"><img src="img/look-2-thumb.webp" width="460" height="657" loading="lazy" alt="The opening page of Chapter 1"><span>Every chapter opens on its own page.</span></a>
         <a href="#page-3"><img src="img/look-3-thumb.webp" width="460" height="657" loading="lazy" alt="A page of Chapter 2 telling the Dhahran story of 2012"><span>Eight regional incidents, told as stories.</span></a>
-        <a href="#page-4"><img src="img/look-4-thumb.webp" width="460" height="657" loading="lazy" alt="A page with the Triton intrusion path diagram"><span>Thirty seven diagrams drawn for the book.</span></a>
-        <a href="#page-5"><img src="img/look-5-thumb.webp" width="460" height="657" loading="lazy" alt="A page of Appendix D listing Kuwait's national controls"><span>Four national instruments, control by control.</span></a>
-        <a href="#page-6"><img src="img/look-6-thumb.webp" width="460" height="657" loading="lazy" alt="A page with a practice case on security architecture review"><span>Practice cases from the region's work.</span></a>
+        <a href="#page-4"><img src="img/look-4-thumb.webp" width="460" height="657" loading="lazy" alt="A page with a pull quote and the Triton intrusion path diagram"><span>Thirty seven diagrams drawn for the book.</span></a>
+        <a href="#page-5"><img src="img/look-5-thumb.webp" width="460" height="657" loading="lazy" alt="A page of Appendix D with tables of Kuwait's national controls"><span>Four national instruments, control by control.</span></a>
+        <a href="#page-6"><img src="img/look-6-thumb.webp" width="460" height="657" loading="lazy" alt="The close of Chapter 1 with its summary and key terms"><span>Every chapter closes with a summary and key terms.</span></a>
       </div>
+      <h3 class="wall-title">A page of art for every chapter</h3>
+      <p class="wall-lead">Each of the twenty three chapters opens on a page of its own: original art in the book's navy and gold, the chapter's sections with the pages they start on, and its learning objectives. A tab on the outer edge of every page carries the chapter number, one step lower each chapter, so the book falls open where you need it.</p>
+      <ol class="wall">
+        <li><img src="img/ch01.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 1: an aerial view of a Gulf coastline at blue hour, its cities, oil platforms and tankers linked across the water by threads of gold light."><span><b>1</b>The Gulf as a Cyber Theatre</span></li>
+        <li><img src="img/ch02.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 2: a gas processing plant in the desert at night, glowing gold except for one section that has gone dark under a red warning light."><span><b>2</b>Threat Actors and Landmark Incidents</span></li>
+        <li><img src="img/ch03.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 3: a government headquarters with a carved stone lattice facade at dusk, joined to the buildings around its plaza by lines of gold light."><span><b>3</b>National Cybersecurity Governance</span></li>
+        <li><img src="img/ch04.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 4: a council chamber with arched windows at golden hour, a long table set with law volumes, papers, a closed laptop and a brass balance scale."><span><b>4</b>Laws, Regulations, and Standards</span></li>
+        <li><img src="img/ch05.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 5: a scale model of a traditional Gulf fort on a drafting table, with gold blueprint lines tracing its rings of defence above it."><span><b>5</b>Principles of Security Engineering and Risk</span></li>
+        <li><img src="img/ch06.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 6: a traveller&#x27;s hand holding a phone with a glowing fingerprint symbol at an airport e-gate, passengers and the terminal blurred behind."><span><b>6</b>Identity, Access and National Digital Identity</span></li>
+        <li><img src="img/ch07.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 7: a carved wooden door with brass studs and an ornate brass lock, standing slightly open with gold light escaping through the gap."><span><b>7</b>Cryptography and Trust Infrastructure</span></li>
+        <li><img src="img/ch08.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 8: a data centre complex at the edge of the desert at dusk, with trails of fibre light running across the dunes into its halls."><span><b>8</b>Network and Cloud Security, Residency and Sovereignty</span></li>
+        <li><img src="img/ch09.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 9: a fintech office high in a Gulf tower at night, a phone on the desk with a glowing payment card above it and the city beyond the glass."><span><b>9</b>Application Security and Open Banking</span></li>
+        <li><img src="img/ch10.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 10: a frosted glass partition etched with an eight point star, the people behind it blurred, points of gold light passing through it into a grid."><span><b>10</b>Data Protection and Privacy Engineering</span></li>
+        <li><img src="img/ch11.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 11: an architect&#x27;s table at night with technical drawings, a white model of a tower, rulers and a brass desk lamp."><span><b>11</b>Security Architecture in Practice</span></li>
+        <li><img src="img/ch12.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 12: a corridor of pointed arches receding into the distance, a glowing gold threshold at every arch and a lone figure walking through."><span><b>12</b>Zero Trust Architecture</span></li>
+        <li><img src="img/ch13.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 13: a gold quantum computer cryostat hanging in a dark laboratory, its light forming an eight point star on the polished floor."><span><b>13</b>Post Quantum Migration</span></li>
+        <li><img src="img/ch14.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 14: an engineer seen from behind at an industrial control panel of dials and switches, a plant with turbines and cooling towers beyond the window."><span><b>14</b>Critical Infrastructure and Operational Technology</span></li>
+        <li><img src="img/ch15.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 15: a subsea cable running out of the sea and up a beach at sunset to a small landing station beside a telecommunications mast and a palm."><span><b>15</b>Telecommunications and Digital Infrastructure</span></li>
+        <li><img src="img/ch16.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 16: a hospital ward at night, a bedside monitor showing a gold heartbeat trace and a nurse walking down the corridor beyond."><span><b>16</b>Healthcare Security</span></li>
+        <li><img src="img/ch17.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 17: a round steel bank vault door engraved with an eight point star, standing open in a marble hall with gold light inside."><span><b>17</b>Financial Services Security</span></li>
+        <li><img src="img/ch18.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 18: a smart city at night seen from above, a driverless train on an elevated track between wind towers and modern towers, linked by gold lines."><span><b>18</b>Government, Smart Cities and Digital Services</span></li>
+        <li><img src="img/ch19.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 19: a peregrine falcon lit in gold, perched in front of the glowing screens of a dark operations room."><span><b>19</b>Security Operations, Threat Intelligence and Incident Response</span></li>
+        <li><img src="img/ch20.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 20: a chessboard inlaid with mother of pearl, brass and navy pieces in mid game and a single knight lit in gold."><span><b>20</b>Offensive Security and Assurance</span></li>
+        <li><img src="img/ch21.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 21: students in a university lecture hall seen from behind, some in traditional Gulf dress, facing a screen with a network of gold points."><span><b>21</b>People, Culture and Workforce</span></li>
+        <li><img src="img/ch22.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 22: a drone hovering over golden dunes at sunrise, a satellite dish and a distant city behind, faint grid lines glowing across the sand."><span><b>22</b>Emerging Technologies</span></li>
+        <li><img src="img/ch23.webp" width="520" height="260" loading="lazy" alt="Art for Chapter 23: a wooden sailing boat crossing rough seas at dawn as the storm breaks, a lighthouse and a city skyline on the far shore."><span><b>23</b>Cyber Resilience and National Strategy</span></li>
+      </ol>
     </div>
   </section>
 
-  <div class="box" id="page-1" role="dialog" aria-label="Sample page 1 of 6"><img src="img/look-1.webp" width="1100" height="1571" loading="lazy" alt="Part I opening page: the title The Gulf Cyber Landscape above an illustration of a Gulf coastal city linked by gold network lines"><p>Each part opens with original art. This is Part I, The Gulf Cyber Landscape.</p><nav><a href="#page-6">Previous page</a><a href="#look">Close</a><a href="#page-2">Next page</a></nav></div>
-  <div class="box" id="page-2" role="dialog" aria-label="Sample page 2 of 6"><img src="img/look-2.webp" width="1100" height="1571" loading="lazy" alt="Chapter 1 opening page: The Gulf as a Cyber Theatre, with a box of six learning objectives and the first paragraphs"><p>Every chapter starts with learning objectives and closes with a summary, key terms, review questions, exercises and sources.</p><nav><a href="#page-1">Previous page</a><a href="#look">Close</a><a href="#page-3">Next page</a></nav></div>
-  <div class="box" id="page-3" role="dialog" aria-label="Sample page 3 of 6"><img src="img/look-3.webp" width="1100" height="1571" loading="lazy" alt="Chapter 2 page with the section Eight stories, told plainly, and the story Dhahran, the night the screens went dark"><p>Chapter 2 tells eight regional incidents as stories, starting with Dhahran in 2012.</p><nav><a href="#page-2">Previous page</a><a href="#look">Close</a><a href="#page-4">Next page</a></nav></div>
-  <div class="box" id="page-4" role="dialog" aria-label="Sample page 4 of 6"><img src="img/look-4.webp" width="1100" height="1571" loading="lazy" alt="Chapter 2 page with Figure 2.2, the Triton intrusion path from the office network to the safety controllers, and the lessons drawn from it"><p>Thirty seven diagrams drawn for the book, like the Triton intrusion path.</p><nav><a href="#page-3">Previous page</a><a href="#look">Close</a><a href="#page-5">Next page</a></nav></div>
-  <div class="box" id="page-5" role="dialog" aria-label="Sample page 5 of 6"><img src="img/look-5.webp" width="1100" height="1571" loading="lazy" alt="Appendix D page describing the scope and design of Kuwait's National Basic Cybersecurity Controls and the start of the table of core controls"><p>Four national instruments opened control by control. This is Kuwait's NBCC in Appendix D.</p><nav><a href="#page-4">Previous page</a><a href="#look">Close</a><a href="#page-6">Next page</a></nav></div>
-  <div class="box" id="page-6" role="dialog" aria-label="Sample page 6 of 6"><img src="img/look-6.webp" width="1100" height="1571" loading="lazy" alt="Chapter 11 page on assessing vendor applications, with the practice case The review that moved a database"><p>Practice cases show the work as it is done in the region.</p><nav><a href="#page-5">Previous page</a><a href="#look">Close</a><a href="#page-1">Next page</a></nav></div>
+  <div class="box" id="page-1" role="dialog" aria-label="Sample page 1 of 6"><img src="img/look-1.webp" width="1100" height="1571" loading="lazy" alt="Part I opening page: the title The Gulf Cyber Landscape, an illustration of a Gulf coastal city linked by gold network lines, and the list of the part&#x27;s four chapters with their pages"><p>Each part opens with original art and a list of its chapters. This is Part I, The Gulf Cyber Landscape.</p><nav><a href="#page-6">Previous page</a><a href="#look">Close</a><a href="#page-2">Next page</a></nav></div>
+  <div class="box" id="page-2" role="dialog" aria-label="Sample page 2 of 6"><img src="img/look-2.webp" width="1100" height="1571" loading="lazy" alt="Chapter 1 opening page: art of a Gulf coastline at night, the chapter number in an eight point star, the title The Gulf as a Cyber Theatre, a map of the chapter&#x27;s six sections with their pages, and six learning objectives"><p>Every chapter opens on its own page with original art, a map of its sections and their pages, and the learning objectives.</p><nav><a href="#page-1">Previous page</a><a href="#look">Close</a><a href="#page-3">Next page</a></nav></div>
+  <div class="box" id="page-3" role="dialog" aria-label="Sample page 3 of 6"><img src="img/look-3.webp" width="1100" height="1571" loading="lazy" alt="Chapter 2 page with the section Eight stories, told plainly, and the stories Dhahran, the night the screens went dark, and Ras Laffan, two weeks later, each opening with a drop cap"><p>Chapter 2 tells eight regional incidents as stories, starting with Dhahran in 2012.</p><nav><a href="#page-2">Previous page</a><a href="#look">Close</a><a href="#page-4">Next page</a></nav></div>
+  <div class="box" id="page-4" role="dialog" aria-label="Sample page 4 of 6"><img src="img/look-4.webp" width="1100" height="1571" loading="lazy" alt="Chapter 2 page with a pull quote, Each step used ordinary techniques; what was extraordinary was the target, above Figure 2.2, the Triton intrusion path from the office network to the safety controllers"><p>Thirty seven diagrams drawn for the book, like the Triton intrusion path.</p><nav><a href="#page-3">Previous page</a><a href="#look">Close</a><a href="#page-5">Next page</a></nav></div>
+  <div class="box" id="page-5" role="dialog" aria-label="Sample page 5 of 6"><img src="img/look-5.webp" width="1100" height="1571" loading="lazy" alt="Appendix D page with the end of the table of core controls of Kuwait&#x27;s National Basic Cybersecurity Controls and the table of the cloud appendix, each with a navy header row"><p>Four national instruments opened control by control. This is Kuwait's NBCC in Appendix D.</p><nav><a href="#page-4">Previous page</a><a href="#look">Close</a><a href="#page-6">Next page</a></nav></div>
+  <div class="box" id="page-6" role="dialog" aria-label="Sample page 6 of 6"><img src="img/look-6.webp" width="1100" height="1571" loading="lazy" alt="The close of Chapter 1: the chapter summary in a panel and the key terms in two columns"><p>Each chapter closes with a summary, key terms, review questions, exercises and sources.</p><nav><a href="#page-5">Previous page</a><a href="#look">Close</a><a href="#page-1">Next page</a></nav></div>
 
   <section class="mist" id="states">
     <div class="wrap states">
@@ -507,7 +545,7 @@ and Practice for the GCC States. First edition. ISBN 979-8178793312.</pre>
       <p>Copyright 2026 Ali AlEnezi. All rights reserved.</p>
       <p>ISBN 979-8178793312. Imprint: Independently published.</p>
       <p><a href="https://www.amazon.com/dp/B0HM6QFZDB">Paperback</a> and <a href="https://www.amazon.com/dp/B0HM2WZM7C">Kindle</a> on Amazon. <a href="https://github.com/SiteQ8/Cybersecurity-in-the-Gulf">Companion repository</a>.</p>
-      <p>Diagrams and cover by the author. Part opener art and the photograph of the paperback were made with generative image tools.</p>
+      <p>Diagrams and cover by the author. The part and chapter opener art and the photograph of the paperback were made with generative image tools.</p>
     </div>
   </div>
 </footer>
