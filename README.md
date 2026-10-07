@@ -1,7 +1,7 @@
 # Cybersecurity in the Gulf
 
 **Foundations, Regulation, and Practice for the GCC States**  
-by Ali AlEnezi. 2026 edition. **[Buy on Amazon](https://www.amazon.com/dp/B0HM2WZM7C)**
+by Ali AlEnezi. 2026 edition. **[Paperback](https://www.amazon.com/dp/B0HM6QFZDB)** · **[Kindle](https://www.amazon.com/dp/B0HM2WZM7C)** on Amazon
 
 <p align="center">
   <img src="docs/cover.png" alt="Cover of Cybersecurity in the Gulf" width="320">
@@ -9,11 +9,14 @@ by Ali AlEnezi. 2026 edition. **[Buy on Amazon](https://www.amazon.com/dp/B0HM2W
 
 A cybersecurity textbook written in the Gulf, for the Gulf. It treats the six states of the Gulf Cooperation Council as one cyber theatre: shared infrastructure that runs on desalinated water, exported energy and digital government; adversaries who have targeted the region since the Shamoon attacks of 2012; national authorities built within the same decade; and six legal frames that differ in the detail that decides what a security programme must contain. It is written for universities, government and practitioners across Bahrain, Kuwait, Oman, Qatar, Saudi Arabia and the United Arab Emirates.
 
-This repository is the public companion to the book. It carries the table of contents, course materials, templates for the exercises, errata and links to the open source tools used in the text. The book itself is sold in paperback and Kindle editions [on Amazon](https://www.amazon.com/dp/B0HM2WZM7C); it is not available here.
+This repository is the public companion to the book. It carries the table of contents, course materials, templates for the exercises, errata and links to the open source tools used in the text. The book itself is sold on Amazon in [paperback](https://www.amazon.com/dp/B0HM6QFZDB) and [Kindle](https://www.amazon.com/dp/B0HM2WZM7C) editions; it is not available here.
 
 ## Where to buy
 
-On sale now: **https://www.amazon.com/dp/B0HM2WZM7C**
+On sale now on Amazon:
+
+- Paperback: **https://www.amazon.com/dp/B0HM6QFZDB**
+- Kindle: **https://www.amazon.com/dp/B0HM2WZM7C**
 
 Paperback (7 by 10 inch) and Kindle editions. ISBN 979-8178793312, imprint Independently published. Companion site: https://cyberingulf.3li.info
 
