@@ -3,207 +3,513 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
-<meta name="description" content="Cybersecurity in the Gulf: Foundations, Regulation, and Practice for the GCC States. A textbook from the region, for the region, in paperback and Kindle editions.">
-<meta property="og:title" content="Cybersecurity in the Gulf">
-<meta property="og:description" content="A cybersecurity textbook from the region, for the region: universities, government and practitioners across the six GCC states.">
-<meta property="og:image" content="https://cyberingulf.3li.info/cover.png">
-<meta property="og:url" content="https://cyberingulf.3li.info/">
-<meta property="og:type" content="book">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; font-src 'self'; base-uri 'none'; form-action 'none'">
 <title>Cybersecurity in the Gulf: a textbook from the region, for the region</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2712%27 fill=%27%230B1F3A%27/%3E%3Cpolygon points=%2732,8 56,32 32,56 8,32%27 fill=%27none%27 stroke=%27%23C9A227%27 stroke-width=%274%27/%3E%3Crect x=%2715%27 y=%2715%27 width=%2734%27 height=%2734%27 fill=%27none%27 stroke=%27%23C9A227%27 stroke-width=%274%27/%3E%3C/svg%3E">
+<meta name="description" content="Cybersecurity in the Gulf: Foundations, Regulation, and Practice for the GCC States, by Ali AlEnezi. The threats, the laws and the practice of all six Gulf states in one textbook. Paperback and Kindle on Amazon.">
+<meta property="og:type" content="book">
+<meta property="og:title" content="Cybersecurity in the Gulf">
+<meta property="og:description" content="The threats, the laws and the practice of all six Gulf states in one textbook. Paperback and Kindle on Amazon.">
+<meta property="og:url" content="https://cyberingulf.3li.info/">
+<meta property="og:image" content="https://cyberingulf.3li.info/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The paperback of Cybersecurity in the Gulf standing on a desk beside a brass coffee pot">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B1F3A">
 <link rel="canonical" href="https://cyberingulf.3li.info/">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Cybersecurity in the Gulf: Foundations, Regulation, and Practice for the GCC States","author":{"@type":"Person","name":"Ali AlEnezi"},"isbn":"9798178793312","bookEdition":"First edition","inLanguage":"en","image":"https://cyberingulf.3li.info/cover.png","url":"https://cyberingulf.3li.info/","sameAs":["https://www.amazon.com/dp/B0HM6QFZDB","https://www.amazon.com/dp/B0HM2WZM7C","https://github.com/SiteQ8/Cybersecurity-in-the-Gulf"],"workExample":[{"@type":"Book","bookFormat":"https://schema.org/Paperback","isbn":"9798178793312","url":"https://www.amazon.com/dp/B0HM6QFZDB"},{"@type":"Book","bookFormat":"https://schema.org/EBook","url":"https://www.amazon.com/dp/B0HM2WZM7C"}]}</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2712%27 fill=%27%230B1F3A%27/%3E%3Cpolygon points=%2732,8 56,32 32,56 8,32%27 fill=%27none%27 stroke=%27%23C9A227%27 stroke-width=%274%27/%3E%3Crect x=%2715%27 y=%2715%27 width=%2734%27 height=%2734%27 fill=%27none%27 stroke=%27%23C9A227%27 stroke-width=%274%27/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/inter-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/pagella-400.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Cybersecurity in the Gulf: Foundations, Regulation, and Practice for the GCC States","author":{"@type":"Person","name":"Ali AlEnezi"},"isbn":"9798178793312","bookEdition":"First edition","inLanguage":"en","image":"https://cyberingulf.3li.info/og.jpg","url":"https://cyberingulf.3li.info/","about":["Cybersecurity","Gulf Cooperation Council","Information security regulation","Critical infrastructure protection"],"sameAs":["https://www.amazon.com/dp/B0HM6QFZDB","https://www.amazon.com/dp/B0HM2WZM7C","https://github.com/SiteQ8/Cybersecurity-in-the-Gulf"],"workExample":[{"@type":"Book","bookFormat":"https://schema.org/Paperback","isbn":"9798178793312","url":"https://www.amazon.com/dp/B0HM6QFZDB"},{"@type":"Book","bookFormat":"https://schema.org/EBook","url":"https://www.amazon.com/dp/B0HM2WZM7C"}]}</script>
 <style>
-:root { --navy:#0B1F3A; --navy2:#132E55; --gold:#C9A227; --sand:#F4EFE6; --ink:#1E293B; --teal:#0F766E; --slate:#475569; --line:#E2E8F0; --paper:#FFFFFF; }
-* { box-sizing:border-box; }
-html { -webkit-text-size-adjust:100%; }
-body { margin:0; background:var(--paper); color:var(--ink); font-family:"Palatino Linotype","Book Antiqua",Palatino,"TeX Gyre Pagella",Georgia,serif; font-size:18px; line-height:1.6; }
-h1,h2,h3,.sans { font-family:Inter,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; line-height:1.15; letter-spacing:-0.01em; }
-a { color:var(--teal); text-decoration-thickness:1px; text-underline-offset:3px; }
-a:focus-visible,.button:focus-visible { outline:3px solid var(--gold); outline-offset:3px; }
-.hero { background:linear-gradient(180deg,var(--navy) 0%,var(--navy2) 100%); color:#fff; position:relative; overflow:hidden; }
-.hero svg.lattice { position:absolute; right:-40px; top:0; height:100%; width:auto; opacity:.22; fill:none; stroke:var(--gold); stroke-width:1; pointer-events:none; }
-.hero .wrap { position:relative; max-width:1100px; margin:0 auto; padding:56px 24px 64px; display:grid; grid-template-columns:minmax(0,1fr) 300px; gap:48px; align-items:center; }
-.hero img { width:100%; max-width:300px; height:auto; display:block; box-shadow:0 30px 60px rgba(0,0,0,.45); border:1px solid rgba(201,162,39,.35); }
-.tag { font-family:Inter,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; color:var(--gold); font-weight:600; margin:0 0 18px; font-size:17px; }
-.hero h1 { font-size:clamp(40px,6vw,66px); margin:0 0 14px; font-weight:800; letter-spacing:-0.025em; }
-.hero p.sub { font-family:Inter,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; font-size:clamp(18px,2.2vw,22px); color:var(--sand); margin:0 0 30px; max-width:36ch; }
-.actions { display:flex; flex-wrap:wrap; gap:12px; }
-.button { font-family:Inter,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; font-weight:600; font-size:16px; padding:13px 20px; border-radius:6px; text-decoration:none; display:inline-block; }
-.button.primary { background:var(--gold); color:var(--navy); }
-.button.secondary { color:#fff; border:1px solid rgba(255,255,255,.55); }
-.button:hover { filter:brightness(1.06); }
-.author { margin:28px 0 0; color:var(--sand); font-family:Inter,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; font-size:16px; }
-main { max-width:1100px; margin:0 auto; padding:16px 24px 48px; }
-section { padding:40px 0 8px; border-bottom:1px solid var(--line); }
-section:last-of-type { border-bottom:0; }
-h2 { color:var(--navy); font-size:30px; margin:0 0 18px; font-weight:700; }
-p { max-width:72ch; margin:0 0 16px; }
-ol.chapters { list-style:none; padding:0; margin:0; max-width:76ch; counter-reset:ch; }
-ol.chapters li { counter-increment:ch; padding:16px 0 16px 64px; position:relative; border-top:1px solid var(--line); }
-ol.chapters li::before { content:counter(ch); position:absolute; left:0; top:12px; font-family:Inter,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; font-weight:800; font-size:34px; color:var(--gold); line-height:1; }
-ol.chapters h3 { margin:0 0 6px; font-size:20px; color:var(--navy); }
-ol.chapters p { margin:0; color:var(--slate); font-size:17px; }
-.appx { background:var(--sand); border-left:4px solid var(--gold); padding:16px 20px; max-width:76ch; margin-top:20px; }
-.appx p { margin:0; }
-.readers { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:32px; max-width:1000px; }
-.readers h3 { margin:0 0 8px; font-size:19px; color:var(--navy); }
-.readers p { font-size:17px; color:var(--slate); }
-ul.tools { padding-left:20px; max-width:76ch; }
-ul.tools li { margin:0 0 8px; }
-pre { background:var(--navy); color:#fff; padding:16px 18px; border-radius:6px; font-size:15px; overflow-x:auto; max-width:76ch; }
-code { font-family:"JetBrains Mono",Menlo,Consolas,monospace; }
-footer { background:var(--sand); padding:28px 24px; font-size:15px; color:var(--slate); }
-.buy { display:flex; flex-wrap:wrap; align-items:center; gap:14px 18px; margin:6px 0 20px; }
-.buy .button.primary { color:var(--navy); }
-.buy-link { font-family:Inter,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; font-size:16px; }
-footer .wrap { max-width:1100px; margin:0 auto; }
-.stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin:28px 0 8px; }
-.stat { background:var(--sand); border-top:3px solid var(--gold); padding:14px 16px; }
-.stat b { display:block; font-family:Inter,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; font-size:30px; color:var(--navy); line-height:1.1; }
-.stat span { font-size:14px; color:var(--slate); }
-ol.chapters li.part { padding:22px 0 6px 0; counter-increment:none; border-top:0; }
-ol.chapters li.part::before { content:none; }
-ol.chapters li.part h3 { font-size:15px; color:var(--gold); letter-spacing:.06em; text-transform:uppercase; margin:0; }
-.teaser { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); gap:32px; align-items:center; }
-.teaser img { width:100%; height:auto; border:1px solid var(--line); border-radius:8px; }
-.isbn { font-family:Inter,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; font-size:14px; color:var(--sand); margin-top:10px; }
-@media (max-width:820px) { .teaser { grid-template-columns:1fr; } }
-@media (max-width:820px) { .hero .wrap { grid-template-columns:1fr; padding-top:40px; } .hero img { order:-1; max-width:220px; } .readers { grid-template-columns:1fr; } }
-@media (prefers-reduced-motion:reduce) { * { transition:none !important; } }
+@font-face { font-family: "Inter"; src: url("fonts/inter-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("fonts/inter-600.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("fonts/inter-800.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+@font-face { font-family: "Pagella"; src: url("fonts/pagella-400.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Pagella"; src: url("fonts/pagella-400i.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Pagella"; src: url("fonts/pagella-700.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+:root {
+  --night: #0B1F3A; --deep: #132E55; --abyss: #08172C;
+  --gold: #C9A227; --gold-ink: #8F6F14; --gold-soft: #E8C85A;
+  --ink: #1B2638; --slate: #4A5A70; --mist: #EEF2F7; --line: #D6DEE9; --teal: #0F766E; --white: #FFFFFF; --frost: #DCE5F0;
+  --sans: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --serif: "Pagella", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  --lattice: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cg fill='none' stroke='%23C9A227' stroke-width='1'%3E%3Cpolygon points='28,0 56,28 28,56 0,28'/%3E%3Crect x='8.2' y='8.2' width='39.6' height='39.6'/%3E%3C/g%3E%3C/svg%3E");
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { margin: 0; background: var(--white); color: var(--ink); font-family: var(--serif); font-size: 19px; line-height: 1.65; }
+img { display: block; max-width: 100%; height: auto; }
+a { color: var(--teal); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:focus-visible, summary:focus-visible, .btn:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-radius: 4px; }
+h1, h2, h3, .sans { font-family: var(--sans); }
+h2 { font-weight: 800; font-size: clamp(30px, 4vw, 42px); line-height: 1.1; letter-spacing: -0.02em; color: var(--night); margin: 0 0 18px; }
+h3 { font-weight: 800; font-size: 22px; line-height: 1.2; letter-spacing: -0.01em; margin: 0 0 8px; color: var(--night); }
+p { margin: 0 0 16px; }
+.wrap { max-width: 1140px; margin: 0 auto; padding: 0 24px; }
+.lead { font-size: 21px; line-height: 1.6; max-width: 60ch; color: var(--slate); }
+.skip { position: absolute; left: -9999px; top: 8px; background: var(--gold); color: var(--night); padding: 8px 12px; font-family: var(--sans); font-weight: 600; z-index: 100; }
+.skip:focus { left: 8px; }
+
+/* buttons: the two ways to buy, the same names everywhere */
+.btn { display: inline-block; font-family: var(--sans); font-weight: 600; font-size: 17px; line-height: 1.2; padding: 14px 22px; border-radius: 7px; text-decoration: none; border: 2px solid transparent; }
+.btn-paper { background: var(--gold); color: var(--night); }
+.btn-kindle { background: var(--white); color: var(--night); }
+.btn-paper:hover, .btn-kindle:hover { filter: brightness(1.07); }
+.on-light .btn-paper { background: var(--night); color: var(--white); }
+.on-light .btn-kindle { background: transparent; color: var(--night); border-color: var(--night); }
+.buy { display: flex; flex-wrap: wrap; gap: 12px; }
+
+/* sticky bar */
+.bar { position: sticky; top: 0; z-index: 20; background: rgba(8, 23, 44, 0.94); backdrop-filter: blur(8px); border-bottom: 1px solid rgba(201, 162, 39, 0.28); }
+.bar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 60px; }
+.mark { display: flex; align-items: center; gap: 10px; font-family: var(--sans); font-weight: 800; color: var(--white); text-decoration: none; letter-spacing: -0.01em; font-size: 17px; }
+.bar .btn { font-size: 15px; padding: 8px 14px; }
+
+/* hero */
+.hero { background: var(--night); color: var(--white); position: relative; overflow: hidden; }
+.hero::before { content: ""; position: absolute; inset: 0; background-image: var(--lattice); background-size: 56px 56px; opacity: 0.09; pointer-events: none; }
+.hero .wrap { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 56px; align-items: center; padding-top: 72px; padding-bottom: 80px; }
+.hero h1 { font-weight: 800; font-size: clamp(46px, 7vw, 84px); line-height: 0.98; letter-spacing: -0.035em; margin: 0 0 18px; }
+.hero .sub { font-family: var(--sans); font-size: clamp(19px, 2.2vw, 23px); line-height: 1.35; color: var(--frost); margin: 0 0 22px; max-width: 30ch; }
+.hero .promise { font-size: 20px; line-height: 1.6; color: #E9EEF5; max-width: 40ch; margin: 0 0 30px; }
+.facts { display: grid; grid-template-columns: max-content 1fr; gap: 6px 18px; margin: 30px 0 0; font-family: var(--sans); font-size: 15px; color: var(--frost); }
+.facts dt { color: var(--gold-soft); font-weight: 600; }
+.facts dd { margin: 0; }
+.hero figure { margin: 0; }
+.hero figure img { border-radius: 12px; border: 1px solid rgba(201, 162, 39, 0.35); box-shadow: 0 40px 80px rgba(0, 0, 0, 0.45); }
+
+/* sections */
+section { padding: 92px 0; }
+.mist { background: var(--mist); }
+.night { background: var(--night); color: var(--white); }
+.night h2, .night h3 { color: var(--white); }
+
+/* look inside */
+.pages { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 32px; margin-top: 40px; }
+.pages a { display: block; text-decoration: none; color: inherit; }
+.pages img { border: 1px solid var(--line); border-radius: 4px; box-shadow: 0 10px 24px rgba(11, 31, 58, 0.12); background: var(--white); }
+.pages a:hover img { border-color: var(--gold); }
+.pages span { display: block; font-family: var(--sans); font-size: 15px; line-height: 1.45; color: var(--slate); margin-top: 14px; }
+.box { display: none; position: fixed; inset: 0; z-index: 50; background: rgba(5, 12, 24, 0.94); padding: 20px; overflow: auto; }
+.box:target { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.box img { max-height: calc(100vh - 130px); width: auto; border-radius: 4px; }
+.box p { color: var(--frost); font-family: var(--sans); font-size: 15px; max-width: 70ch; text-align: center; margin: 0; }
+.box nav { display: flex; gap: 22px; font-family: var(--sans); font-size: 15px; }
+.box nav a { color: var(--gold-soft); }
+
+/* every state */
+.states { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 56px; align-items: center; }
+.states img { border-radius: 10px; border: 1px solid var(--line); }
+.authorities { list-style: none; padding: 0; margin: 22px 0 0; font-family: var(--sans); font-size: 16px; }
+.authorities li { display: grid; grid-template-columns: 190px 1fr; gap: 12px; padding: 9px 0; border-top: 1px solid var(--line); }
+.authorities b { color: var(--night); font-weight: 600; }
+
+/* four parts: the band that carries the art */
+.parts-band { background: var(--abyss); }
+.parts-band .lead { color: var(--frost); }
+.parts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 26px; margin-top: 40px; }
+.part img { aspect-ratio: 3 / 4; object-fit: cover; width: 100%; border-radius: 10px; border: 1px solid rgba(201, 162, 39, 0.4); }
+.part .num { font-family: var(--sans); font-weight: 600; color: var(--gold-soft); font-size: 15px; margin: 18px 0 4px; }
+.part h3 { font-size: 24px; color: var(--white); }
+.part .count { font-style: italic; color: var(--frost); font-size: 17px; margin: 0 0 10px; }
+.part details { font-family: var(--sans); font-size: 15px; line-height: 1.5; color: var(--frost); }
+.part summary { cursor: pointer; color: var(--gold-soft); font-weight: 600; list-style: none; }
+.part summary::-webkit-details-marker { display: none; }
+.part summary::before { content: "+ "; }
+.part details[open] summary::before { content: "\2212 "; }
+.part ol { margin: 12px 0 0; padding-left: 1.2em; }
+.part li { margin: 0 0 10px; }
+.part li b { color: var(--white); font-weight: 600; }
+.appx-note { margin-top: 40px; color: var(--frost); max-width: 75ch; font-size: 18px; }
+.appx-note a { color: var(--gold-soft); }
+
+/* instruments */
+.instr { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.4fr); gap: 56px; align-items: start; }
+.instr figure { margin: 0; position: sticky; top: 90px; }
+.instr figure img { border-radius: 10px; }
+.instr figcaption { font-family: var(--sans); font-size: 14px; color: var(--slate); margin-top: 10px; }
+.rows { list-style: none; padding: 0; margin: 28px 0 0; }
+.rows li { padding: 22px 0; border-top: 1px solid var(--line); }
+.rows li:last-child { border-bottom: 1px solid var(--line); }
+.rows .who { font-family: var(--sans); font-size: 15px; color: var(--gold-ink); font-weight: 600; margin: 0 0 4px; }
+.rows h3 { font-size: 21px; }
+.rows p { margin: 0; color: var(--slate); font-size: 18px; }
+
+/* stories */
+.stories { list-style: none; padding: 0; margin: 36px 0 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 48px; }
+.stories li { padding: 18px 0; border-top: 1px solid var(--line); }
+.stories h3 { font-size: 20px; margin-bottom: 2px; }
+.stories .when { font-family: var(--sans); font-size: 14px; color: var(--gold-ink); font-weight: 600; margin: 0 0 6px; }
+.stories p { margin: 0; color: var(--slate); font-size: 18px; }
+
+/* readers */
+.readers { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; margin-top: 36px; }
+.readers > div { border-top: 3px solid var(--gold); padding-top: 18px; }
+.readers ul { margin: 10px 0 0; padding-left: 1.1em; color: var(--slate); font-size: 18px; }
+.readers li { margin-bottom: 8px; }
+
+/* tools, author */
+.tools { columns: 2; column-gap: 48px; padding-left: 1.1em; margin: 24px 0 0; }
+.tools li { margin-bottom: 12px; break-inside: avoid; }
+.author { display: flex; gap: 32px; align-items: flex-start; flex-wrap: wrap; }
+.author img { border-radius: 50%; border: 3px solid var(--gold); flex: 0 0 auto; }
+.author p { max-width: 62ch; }
+
+/* questions */
+.faq { max-width: 820px; margin-top: 28px; }
+.faq details { border-top: 1px solid var(--line); padding: 18px 0; }
+.faq details:last-child { border-bottom: 1px solid var(--line); }
+.faq summary { cursor: pointer; font-family: var(--sans); font-weight: 600; font-size: 19px; color: var(--night); list-style: none; display: flex; justify-content: space-between; gap: 16px; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; color: var(--gold-ink); font-weight: 800; }
+.faq details[open] summary::after { content: "\2212"; }
+.faq p { margin: 12px 0 0; color: var(--slate); }
+
+/* final call */
+.final .wrap { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 48px; align-items: center; }
+.final img { border-radius: 4px; box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5); }
+.final p { color: var(--frost); max-width: 52ch; }
+
+footer { background: var(--abyss); color: var(--frost); font-family: var(--sans); font-size: 14px; line-height: 1.6; padding: 44px 0; }
+footer a { color: var(--gold-soft); }
+footer pre { font-family: var(--serif); font-size: 15px; white-space: pre-wrap; background: rgba(255, 255, 255, 0.04); padding: 14px 16px; border-radius: 6px; margin: 10px 0 18px; color: #E9EEF5; }
+footer .cols { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 48px; }
+
+@media (max-width: 1000px) {
+  .parts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .readers { grid-template-columns: 1fr; gap: 28px; }
+}
+@media (max-width: 820px) {
+  section { padding: 64px 0; }
+  .hero .wrap { grid-template-columns: 1fr; gap: 40px; padding-top: 44px; padding-bottom: 56px; }
+  .states, .instr { grid-template-columns: 1fr; gap: 32px; }
+  .instr figure { position: static; }
+  .stories { grid-template-columns: 1fr; }
+  .tools { columns: 1; }
+  .final .wrap { grid-template-columns: 1fr; }
+  .final img { max-width: 200px; }
+  footer .cols { grid-template-columns: 1fr; gap: 20px; }
+  .authorities li { grid-template-columns: 1fr; gap: 0; }
+}
+@media (max-width: 560px) {
+  body { font-size: 18px; }
+  .pages { grid-template-columns: repeat(6, 62%); overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; }
+  .pages a { scroll-snap-align: start; }
+  .parts { grid-template-columns: 1fr; }
+  .mark { font-size: 15px; }
+  .mark .full { display: none; }
+  .bar .btn { font-size: 14px; padding: 7px 11px; }
+}
 </style>
 </head>
 <body>
-<header class="hero">
-  <svg class="lattice" viewBox="0 0 640 520" aria-hidden="true"><polygon points="28.0,0.0 0.0,28.0 -28.0,0.0 -0.0,-28.0"/><polygon points="19.8,19.8 -19.8,19.8 -19.8,-19.8 19.8,-19.8"/><polygon points="28.0,56.0 0.0,84.0 -28.0,56.0 -0.0,28.0"/><polygon points="19.8,75.8 -19.8,75.8 -19.8,36.2 19.8,36.2"/><polygon points="28.0,112.0 0.0,140.0 -28.0,112.0 -0.0,84.0"/><polygon points="19.8,131.8 -19.8,131.8 -19.8,92.2 19.8,92.2"/><polygon points="28.0,168.0 0.0,196.0 -28.0,168.0 -0.0,140.0"/><polygon points="19.8,187.8 -19.8,187.8 -19.8,148.2 19.8,148.2"/><polygon points="28.0,224.0 0.0,252.0 -28.0,224.0 -0.0,196.0"/><polygon points="19.8,243.8 -19.8,243.8 -19.8,204.2 19.8,204.2"/><polygon points="28.0,280.0 0.0,308.0 -28.0,280.0 -0.0,252.0"/><polygon points="19.8,299.8 -19.8,299.8 -19.8,260.2 19.8,260.2"/><polygon points="28.0,336.0 0.0,364.0 -28.0,336.0 -0.0,308.0"/><polygon points="19.8,355.8 -19.8,355.8 -19.8,316.2 19.8,316.2"/><polygon points="28.0,392.0 0.0,420.0 -28.0,392.0 -0.0,364.0"/><polygon points="19.8,411.8 -19.8,411.8 -19.8,372.2 19.8,372.2"/><polygon points="28.0,448.0 0.0,476.0 -28.0,448.0 -0.0,420.0"/><polygon points="19.8,467.8 -19.8,467.8 -19.8,428.2 19.8,428.2"/><polygon points="28.0,504.0 0.0,532.0 -28.0,504.0 -0.0,476.0"/><polygon points="19.8,523.8 -19.8,523.8 -19.8,484.2 19.8,484.2"/><polygon points="28.0,560.0 0.0,588.0 -28.0,560.0 -0.0,532.0"/><polygon points="19.8,579.8 -19.8,579.8 -19.8,540.2 19.8,540.2"/><polygon points="84.0,0.0 56.0,28.0 28.0,0.0 56.0,-28.0"/><polygon points="75.8,19.8 36.2,19.8 36.2,-19.8 75.8,-19.8"/><polygon points="84.0,56.0 56.0,84.0 28.0,56.0 56.0,28.0"/><polygon points="75.8,75.8 36.2,75.8 36.2,36.2 75.8,36.2"/><polygon points="84.0,112.0 56.0,140.0 28.0,112.0 56.0,84.0"/><polygon points="75.8,131.8 36.2,131.8 36.2,92.2 75.8,92.2"/><polygon points="84.0,168.0 56.0,196.0 28.0,168.0 56.0,140.0"/><polygon points="75.8,187.8 36.2,187.8 36.2,148.2 75.8,148.2"/><polygon points="84.0,224.0 56.0,252.0 28.0,224.0 56.0,196.0"/><polygon points="75.8,243.8 36.2,243.8 36.2,204.2 75.8,204.2"/><polygon points="84.0,280.0 56.0,308.0 28.0,280.0 56.0,252.0"/><polygon points="75.8,299.8 36.2,299.8 36.2,260.2 75.8,260.2"/><polygon points="84.0,336.0 56.0,364.0 28.0,336.0 56.0,308.0"/><polygon points="75.8,355.8 36.2,355.8 36.2,316.2 75.8,316.2"/><polygon points="84.0,392.0 56.0,420.0 28.0,392.0 56.0,364.0"/><polygon points="75.8,411.8 36.2,411.8 36.2,372.2 75.8,372.2"/><polygon points="84.0,448.0 56.0,476.0 28.0,448.0 56.0,420.0"/><polygon points="75.8,467.8 36.2,467.8 36.2,428.2 75.8,428.2"/><polygon points="84.0,504.0 56.0,532.0 28.0,504.0 56.0,476.0"/><polygon points="75.8,523.8 36.2,523.8 36.2,484.2 75.8,484.2"/><polygon points="84.0,560.0 56.0,588.0 28.0,560.0 56.0,532.0"/><polygon points="75.8,579.8 36.2,579.8 36.2,540.2 75.8,540.2"/><polygon points="140.0,0.0 112.0,28.0 84.0,0.0 112.0,-28.0"/><polygon points="131.8,19.8 92.2,19.8 92.2,-19.8 131.8,-19.8"/><polygon points="140.0,56.0 112.0,84.0 84.0,56.0 112.0,28.0"/><polygon points="131.8,75.8 92.2,75.8 92.2,36.2 131.8,36.2"/><polygon points="140.0,112.0 112.0,140.0 84.0,112.0 112.0,84.0"/><polygon points="131.8,131.8 92.2,131.8 92.2,92.2 131.8,92.2"/><polygon points="140.0,168.0 112.0,196.0 84.0,168.0 112.0,140.0"/><polygon points="131.8,187.8 92.2,187.8 92.2,148.2 131.8,148.2"/><polygon points="140.0,224.0 112.0,252.0 84.0,224.0 112.0,196.0"/><polygon points="131.8,243.8 92.2,243.8 92.2,204.2 131.8,204.2"/><polygon points="140.0,280.0 112.0,308.0 84.0,280.0 112.0,252.0"/><polygon points="131.8,299.8 92.2,299.8 92.2,260.2 131.8,260.2"/><polygon points="140.0,336.0 112.0,364.0 84.0,336.0 112.0,308.0"/><polygon points="131.8,355.8 92.2,355.8 92.2,316.2 131.8,316.2"/><polygon points="140.0,392.0 112.0,420.0 84.0,392.0 112.0,364.0"/><polygon points="131.8,411.8 92.2,411.8 92.2,372.2 131.8,372.2"/><polygon points="140.0,448.0 112.0,476.0 84.0,448.0 112.0,420.0"/><polygon points="131.8,467.8 92.2,467.8 92.2,428.2 131.8,428.2"/><polygon points="140.0,504.0 112.0,532.0 84.0,504.0 112.0,476.0"/><polygon points="131.8,523.8 92.2,523.8 92.2,484.2 131.8,484.2"/><polygon points="140.0,560.0 112.0,588.0 84.0,560.0 112.0,532.0"/><polygon points="131.8,579.8 92.2,579.8 92.2,540.2 131.8,540.2"/><polygon points="196.0,0.0 168.0,28.0 140.0,0.0 168.0,-28.0"/><polygon points="187.8,19.8 148.2,19.8 148.2,-19.8 187.8,-19.8"/><polygon points="196.0,56.0 168.0,84.0 140.0,56.0 168.0,28.0"/><polygon points="187.8,75.8 148.2,75.8 148.2,36.2 187.8,36.2"/><polygon points="196.0,112.0 168.0,140.0 140.0,112.0 168.0,84.0"/><polygon points="187.8,131.8 148.2,131.8 148.2,92.2 187.8,92.2"/><polygon points="196.0,168.0 168.0,196.0 140.0,168.0 168.0,140.0"/><polygon points="187.8,187.8 148.2,187.8 148.2,148.2 187.8,148.2"/><polygon points="196.0,224.0 168.0,252.0 140.0,224.0 168.0,196.0"/><polygon points="187.8,243.8 148.2,243.8 148.2,204.2 187.8,204.2"/><polygon points="196.0,280.0 168.0,308.0 140.0,280.0 168.0,252.0"/><polygon points="187.8,299.8 148.2,299.8 148.2,260.2 187.8,260.2"/><polygon points="196.0,336.0 168.0,364.0 140.0,336.0 168.0,308.0"/><polygon points="187.8,355.8 148.2,355.8 148.2,316.2 187.8,316.2"/><polygon points="196.0,392.0 168.0,420.0 140.0,392.0 168.0,364.0"/><polygon points="187.8,411.8 148.2,411.8 148.2,372.2 187.8,372.2"/><polygon points="196.0,448.0 168.0,476.0 140.0,448.0 168.0,420.0"/><polygon points="187.8,467.8 148.2,467.8 148.2,428.2 187.8,428.2"/><polygon points="196.0,504.0 168.0,532.0 140.0,504.0 168.0,476.0"/><polygon points="187.8,523.8 148.2,523.8 148.2,484.2 187.8,484.2"/><polygon points="196.0,560.0 168.0,588.0 140.0,560.0 168.0,532.0"/><polygon points="187.8,579.8 148.2,579.8 148.2,540.2 187.8,540.2"/><polygon points="252.0,0.0 224.0,28.0 196.0,0.0 224.0,-28.0"/><polygon points="243.8,19.8 204.2,19.8 204.2,-19.8 243.8,-19.8"/><polygon points="252.0,56.0 224.0,84.0 196.0,56.0 224.0,28.0"/><polygon points="243.8,75.8 204.2,75.8 204.2,36.2 243.8,36.2"/><polygon points="252.0,112.0 224.0,140.0 196.0,112.0 224.0,84.0"/><polygon points="243.8,131.8 204.2,131.8 204.2,92.2 243.8,92.2"/><polygon points="252.0,168.0 224.0,196.0 196.0,168.0 224.0,140.0"/><polygon points="243.8,187.8 204.2,187.8 204.2,148.2 243.8,148.2"/><polygon points="252.0,224.0 224.0,252.0 196.0,224.0 224.0,196.0"/><polygon points="243.8,243.8 204.2,243.8 204.2,204.2 243.8,204.2"/><polygon points="252.0,280.0 224.0,308.0 196.0,280.0 224.0,252.0"/><polygon points="243.8,299.8 204.2,299.8 204.2,260.2 243.8,260.2"/><polygon points="252.0,336.0 224.0,364.0 196.0,336.0 224.0,308.0"/><polygon points="243.8,355.8 204.2,355.8 204.2,316.2 243.8,316.2"/><polygon points="252.0,392.0 224.0,420.0 196.0,392.0 224.0,364.0"/><polygon points="243.8,411.8 204.2,411.8 204.2,372.2 243.8,372.2"/><polygon points="252.0,448.0 224.0,476.0 196.0,448.0 224.0,420.0"/><polygon points="243.8,467.8 204.2,467.8 204.2,428.2 243.8,428.2"/><polygon points="252.0,504.0 224.0,532.0 196.0,504.0 224.0,476.0"/><polygon points="243.8,523.8 204.2,523.8 204.2,484.2 243.8,484.2"/><polygon points="252.0,560.0 224.0,588.0 196.0,560.0 224.0,532.0"/><polygon points="243.8,579.8 204.2,579.8 204.2,540.2 243.8,540.2"/><polygon points="308.0,0.0 280.0,28.0 252.0,0.0 280.0,-28.0"/><polygon points="299.8,19.8 260.2,19.8 260.2,-19.8 299.8,-19.8"/><polygon points="308.0,56.0 280.0,84.0 252.0,56.0 280.0,28.0"/><polygon points="299.8,75.8 260.2,75.8 260.2,36.2 299.8,36.2"/><polygon points="308.0,112.0 280.0,140.0 252.0,112.0 280.0,84.0"/><polygon points="299.8,131.8 260.2,131.8 260.2,92.2 299.8,92.2"/><polygon points="308.0,168.0 280.0,196.0 252.0,168.0 280.0,140.0"/><polygon points="299.8,187.8 260.2,187.8 260.2,148.2 299.8,148.2"/><polygon points="308.0,224.0 280.0,252.0 252.0,224.0 280.0,196.0"/><polygon points="299.8,243.8 260.2,243.8 260.2,204.2 299.8,204.2"/><polygon points="308.0,280.0 280.0,308.0 252.0,280.0 280.0,252.0"/><polygon points="299.8,299.8 260.2,299.8 260.2,260.2 299.8,260.2"/><polygon points="308.0,336.0 280.0,364.0 252.0,336.0 280.0,308.0"/><polygon points="299.8,355.8 260.2,355.8 260.2,316.2 299.8,316.2"/><polygon points="308.0,392.0 280.0,420.0 252.0,392.0 280.0,364.0"/><polygon points="299.8,411.8 260.2,411.8 260.2,372.2 299.8,372.2"/><polygon points="308.0,448.0 280.0,476.0 252.0,448.0 280.0,420.0"/><polygon points="299.8,467.8 260.2,467.8 260.2,428.2 299.8,428.2"/><polygon points="308.0,504.0 280.0,532.0 252.0,504.0 280.0,476.0"/><polygon points="299.8,523.8 260.2,523.8 260.2,484.2 299.8,484.2"/><polygon points="308.0,560.0 280.0,588.0 252.0,560.0 280.0,532.0"/><polygon points="299.8,579.8 260.2,579.8 260.2,540.2 299.8,540.2"/><polygon points="364.0,0.0 336.0,28.0 308.0,0.0 336.0,-28.0"/><polygon points="355.8,19.8 316.2,19.8 316.2,-19.8 355.8,-19.8"/><polygon points="364.0,56.0 336.0,84.0 308.0,56.0 336.0,28.0"/><polygon points="355.8,75.8 316.2,75.8 316.2,36.2 355.8,36.2"/><polygon points="364.0,112.0 336.0,140.0 308.0,112.0 336.0,84.0"/><polygon points="355.8,131.8 316.2,131.8 316.2,92.2 355.8,92.2"/><polygon points="364.0,168.0 336.0,196.0 308.0,168.0 336.0,140.0"/><polygon points="355.8,187.8 316.2,187.8 316.2,148.2 355.8,148.2"/><polygon points="364.0,224.0 336.0,252.0 308.0,224.0 336.0,196.0"/><polygon points="355.8,243.8 316.2,243.8 316.2,204.2 355.8,204.2"/><polygon points="364.0,280.0 336.0,308.0 308.0,280.0 336.0,252.0"/><polygon points="355.8,299.8 316.2,299.8 316.2,260.2 355.8,260.2"/><polygon points="364.0,336.0 336.0,364.0 308.0,336.0 336.0,308.0"/><polygon points="355.8,355.8 316.2,355.8 316.2,316.2 355.8,316.2"/><polygon points="364.0,392.0 336.0,420.0 308.0,392.0 336.0,364.0"/><polygon points="355.8,411.8 316.2,411.8 316.2,372.2 355.8,372.2"/><polygon points="364.0,448.0 336.0,476.0 308.0,448.0 336.0,420.0"/><polygon points="355.8,467.8 316.2,467.8 316.2,428.2 355.8,428.2"/><polygon points="364.0,504.0 336.0,532.0 308.0,504.0 336.0,476.0"/><polygon points="355.8,523.8 316.2,523.8 316.2,484.2 355.8,484.2"/><polygon points="364.0,560.0 336.0,588.0 308.0,560.0 336.0,532.0"/><polygon points="355.8,579.8 316.2,579.8 316.2,540.2 355.8,540.2"/><polygon points="420.0,0.0 392.0,28.0 364.0,0.0 392.0,-28.0"/><polygon points="411.8,19.8 372.2,19.8 372.2,-19.8 411.8,-19.8"/><polygon points="420.0,56.0 392.0,84.0 364.0,56.0 392.0,28.0"/><polygon points="411.8,75.8 372.2,75.8 372.2,36.2 411.8,36.2"/><polygon points="420.0,112.0 392.0,140.0 364.0,112.0 392.0,84.0"/><polygon points="411.8,131.8 372.2,131.8 372.2,92.2 411.8,92.2"/><polygon points="420.0,168.0 392.0,196.0 364.0,168.0 392.0,140.0"/><polygon points="411.8,187.8 372.2,187.8 372.2,148.2 411.8,148.2"/><polygon points="420.0,224.0 392.0,252.0 364.0,224.0 392.0,196.0"/><polygon points="411.8,243.8 372.2,243.8 372.2,204.2 411.8,204.2"/><polygon points="420.0,280.0 392.0,308.0 364.0,280.0 392.0,252.0"/><polygon points="411.8,299.8 372.2,299.8 372.2,260.2 411.8,260.2"/><polygon points="420.0,336.0 392.0,364.0 364.0,336.0 392.0,308.0"/><polygon points="411.8,355.8 372.2,355.8 372.2,316.2 411.8,316.2"/><polygon points="420.0,392.0 392.0,420.0 364.0,392.0 392.0,364.0"/><polygon points="411.8,411.8 372.2,411.8 372.2,372.2 411.8,372.2"/><polygon points="420.0,448.0 392.0,476.0 364.0,448.0 392.0,420.0"/><polygon points="411.8,467.8 372.2,467.8 372.2,428.2 411.8,428.2"/><polygon points="420.0,504.0 392.0,532.0 364.0,504.0 392.0,476.0"/><polygon points="411.8,523.8 372.2,523.8 372.2,484.2 411.8,484.2"/><polygon points="420.0,560.0 392.0,588.0 364.0,560.0 392.0,532.0"/><polygon points="411.8,579.8 372.2,579.8 372.2,540.2 411.8,540.2"/><polygon points="476.0,0.0 448.0,28.0 420.0,0.0 448.0,-28.0"/><polygon points="467.8,19.8 428.2,19.8 428.2,-19.8 467.8,-19.8"/><polygon points="476.0,56.0 448.0,84.0 420.0,56.0 448.0,28.0"/><polygon points="467.8,75.8 428.2,75.8 428.2,36.2 467.8,36.2"/><polygon points="476.0,112.0 448.0,140.0 420.0,112.0 448.0,84.0"/><polygon points="467.8,131.8 428.2,131.8 428.2,92.2 467.8,92.2"/><polygon points="476.0,168.0 448.0,196.0 420.0,168.0 448.0,140.0"/><polygon points="467.8,187.8 428.2,187.8 428.2,148.2 467.8,148.2"/><polygon points="476.0,224.0 448.0,252.0 420.0,224.0 448.0,196.0"/><polygon points="467.8,243.8 428.2,243.8 428.2,204.2 467.8,204.2"/><polygon points="476.0,280.0 448.0,308.0 420.0,280.0 448.0,252.0"/><polygon points="467.8,299.8 428.2,299.8 428.2,260.2 467.8,260.2"/><polygon points="476.0,336.0 448.0,364.0 420.0,336.0 448.0,308.0"/><polygon points="467.8,355.8 428.2,355.8 428.2,316.2 467.8,316.2"/><polygon points="476.0,392.0 448.0,420.0 420.0,392.0 448.0,364.0"/><polygon points="467.8,411.8 428.2,411.8 428.2,372.2 467.8,372.2"/><polygon points="476.0,448.0 448.0,476.0 420.0,448.0 448.0,420.0"/><polygon points="467.8,467.8 428.2,467.8 428.2,428.2 467.8,428.2"/><polygon points="476.0,504.0 448.0,532.0 420.0,504.0 448.0,476.0"/><polygon points="467.8,523.8 428.2,523.8 428.2,484.2 467.8,484.2"/><polygon points="476.0,560.0 448.0,588.0 420.0,560.0 448.0,532.0"/><polygon points="467.8,579.8 428.2,579.8 428.2,540.2 467.8,540.2"/><polygon points="532.0,0.0 504.0,28.0 476.0,0.0 504.0,-28.0"/><polygon points="523.8,19.8 484.2,19.8 484.2,-19.8 523.8,-19.8"/><polygon points="532.0,56.0 504.0,84.0 476.0,56.0 504.0,28.0"/><polygon points="523.8,75.8 484.2,75.8 484.2,36.2 523.8,36.2"/><polygon points="532.0,112.0 504.0,140.0 476.0,112.0 504.0,84.0"/><polygon points="523.8,131.8 484.2,131.8 484.2,92.2 523.8,92.2"/><polygon points="532.0,168.0 504.0,196.0 476.0,168.0 504.0,140.0"/><polygon points="523.8,187.8 484.2,187.8 484.2,148.2 523.8,148.2"/><polygon points="532.0,224.0 504.0,252.0 476.0,224.0 504.0,196.0"/><polygon points="523.8,243.8 484.2,243.8 484.2,204.2 523.8,204.2"/><polygon points="532.0,280.0 504.0,308.0 476.0,280.0 504.0,252.0"/><polygon points="523.8,299.8 484.2,299.8 484.2,260.2 523.8,260.2"/><polygon points="532.0,336.0 504.0,364.0 476.0,336.0 504.0,308.0"/><polygon points="523.8,355.8 484.2,355.8 484.2,316.2 523.8,316.2"/><polygon points="532.0,392.0 504.0,420.0 476.0,392.0 504.0,364.0"/><polygon points="523.8,411.8 484.2,411.8 484.2,372.2 523.8,372.2"/><polygon points="532.0,448.0 504.0,476.0 476.0,448.0 504.0,420.0"/><polygon points="523.8,467.8 484.2,467.8 484.2,428.2 523.8,428.2"/><polygon points="532.0,504.0 504.0,532.0 476.0,504.0 504.0,476.0"/><polygon points="523.8,523.8 484.2,523.8 484.2,484.2 523.8,484.2"/><polygon points="532.0,560.0 504.0,588.0 476.0,560.0 504.0,532.0"/><polygon points="523.8,579.8 484.2,579.8 484.2,540.2 523.8,540.2"/><polygon points="588.0,0.0 560.0,28.0 532.0,0.0 560.0,-28.0"/><polygon points="579.8,19.8 540.2,19.8 540.2,-19.8 579.8,-19.8"/><polygon points="588.0,56.0 560.0,84.0 532.0,56.0 560.0,28.0"/><polygon points="579.8,75.8 540.2,75.8 540.2,36.2 579.8,36.2"/><polygon points="588.0,112.0 560.0,140.0 532.0,112.0 560.0,84.0"/><polygon points="579.8,131.8 540.2,131.8 540.2,92.2 579.8,92.2"/><polygon points="588.0,168.0 560.0,196.0 532.0,168.0 560.0,140.0"/><polygon points="579.8,187.8 540.2,187.8 540.2,148.2 579.8,148.2"/><polygon points="588.0,224.0 560.0,252.0 532.0,224.0 560.0,196.0"/><polygon points="579.8,243.8 540.2,243.8 540.2,204.2 579.8,204.2"/><polygon points="588.0,280.0 560.0,308.0 532.0,280.0 560.0,252.0"/><polygon points="579.8,299.8 540.2,299.8 540.2,260.2 579.8,260.2"/><polygon points="588.0,336.0 560.0,364.0 532.0,336.0 560.0,308.0"/><polygon points="579.8,355.8 540.2,355.8 540.2,316.2 579.8,316.2"/><polygon points="588.0,392.0 560.0,420.0 532.0,392.0 560.0,364.0"/><polygon points="579.8,411.8 540.2,411.8 540.2,372.2 579.8,372.2"/><polygon points="588.0,448.0 560.0,476.0 532.0,448.0 560.0,420.0"/><polygon points="579.8,467.8 540.2,467.8 540.2,428.2 579.8,428.2"/><polygon points="588.0,504.0 560.0,532.0 532.0,504.0 560.0,476.0"/><polygon points="579.8,523.8 540.2,523.8 540.2,484.2 579.8,484.2"/><polygon points="588.0,560.0 560.0,588.0 532.0,560.0 560.0,532.0"/><polygon points="579.8,579.8 540.2,579.8 540.2,540.2 579.8,540.2"/><polygon points="644.0,0.0 616.0,28.0 588.0,0.0 616.0,-28.0"/><polygon points="635.8,19.8 596.2,19.8 596.2,-19.8 635.8,-19.8"/><polygon points="644.0,56.0 616.0,84.0 588.0,56.0 616.0,28.0"/><polygon points="635.8,75.8 596.2,75.8 596.2,36.2 635.8,36.2"/><polygon points="644.0,112.0 616.0,140.0 588.0,112.0 616.0,84.0"/><polygon points="635.8,131.8 596.2,131.8 596.2,92.2 635.8,92.2"/><polygon points="644.0,168.0 616.0,196.0 588.0,168.0 616.0,140.0"/><polygon points="635.8,187.8 596.2,187.8 596.2,148.2 635.8,148.2"/><polygon points="644.0,224.0 616.0,252.0 588.0,224.0 616.0,196.0"/><polygon points="635.8,243.8 596.2,243.8 596.2,204.2 635.8,204.2"/><polygon points="644.0,280.0 616.0,308.0 588.0,280.0 616.0,252.0"/><polygon points="635.8,299.8 596.2,299.8 596.2,260.2 635.8,260.2"/><polygon points="644.0,336.0 616.0,364.0 588.0,336.0 616.0,308.0"/><polygon points="635.8,355.8 596.2,355.8 596.2,316.2 635.8,316.2"/><polygon points="644.0,392.0 616.0,420.0 588.0,392.0 616.0,364.0"/><polygon points="635.8,411.8 596.2,411.8 596.2,372.2 635.8,372.2"/><polygon points="644.0,448.0 616.0,476.0 588.0,448.0 616.0,420.0"/><polygon points="635.8,467.8 596.2,467.8 596.2,428.2 635.8,428.2"/><polygon points="644.0,504.0 616.0,532.0 588.0,504.0 616.0,476.0"/><polygon points="635.8,523.8 596.2,523.8 596.2,484.2 635.8,484.2"/><polygon points="644.0,560.0 616.0,588.0 588.0,560.0 616.0,532.0"/><polygon points="635.8,579.8 596.2,579.8 596.2,540.2 635.8,540.2"/><polygon points="700.0,0.0 672.0,28.0 644.0,0.0 672.0,-28.0"/><polygon points="691.8,19.8 652.2,19.8 652.2,-19.8 691.8,-19.8"/><polygon points="700.0,56.0 672.0,84.0 644.0,56.0 672.0,28.0"/><polygon points="691.8,75.8 652.2,75.8 652.2,36.2 691.8,36.2"/><polygon points="700.0,112.0 672.0,140.0 644.0,112.0 672.0,84.0"/><polygon points="691.8,131.8 652.2,131.8 652.2,92.2 691.8,92.2"/><polygon points="700.0,168.0 672.0,196.0 644.0,168.0 672.0,140.0"/><polygon points="691.8,187.8 652.2,187.8 652.2,148.2 691.8,148.2"/><polygon points="700.0,224.0 672.0,252.0 644.0,224.0 672.0,196.0"/><polygon points="691.8,243.8 652.2,243.8 652.2,204.2 691.8,204.2"/><polygon points="700.0,280.0 672.0,308.0 644.0,280.0 672.0,252.0"/><polygon points="691.8,299.8 652.2,299.8 652.2,260.2 691.8,260.2"/><polygon points="700.0,336.0 672.0,364.0 644.0,336.0 672.0,308.0"/><polygon points="691.8,355.8 652.2,355.8 652.2,316.2 691.8,316.2"/><polygon points="700.0,392.0 672.0,420.0 644.0,392.0 672.0,364.0"/><polygon points="691.8,411.8 652.2,411.8 652.2,372.2 691.8,372.2"/><polygon points="700.0,448.0 672.0,476.0 644.0,448.0 672.0,420.0"/><polygon points="691.8,467.8 652.2,467.8 652.2,428.2 691.8,428.2"/><polygon points="700.0,504.0 672.0,532.0 644.0,504.0 672.0,476.0"/><polygon points="691.8,523.8 652.2,523.8 652.2,484.2 691.8,484.2"/><polygon points="700.0,560.0 672.0,588.0 644.0,560.0 672.0,532.0"/><polygon points="691.8,579.8 652.2,579.8 652.2,540.2 691.8,540.2"/></svg>
+<a class="skip" href="#look">Skip to the book</a>
+
+<div class="bar">
+  <div class="wrap">
+    <a class="mark" href="#top" aria-label="Cybersecurity in the Gulf, back to top"><svg viewBox="0 0 64 64" width="26" height="26" aria-hidden="true"><polygon points="32,6 58,32 32,58 6,32" fill="none" stroke="#C9A227" stroke-width="4"/><rect x="13.6" y="13.6" width="36.8" height="36.8" fill="none" stroke="#C9A227" stroke-width="4"/></svg><span class="full">Cybersecurity in the Gulf</span></a>
+    <div class="buy">
+      <a class="btn btn-paper" href="https://www.amazon.com/dp/B0HM6QFZDB">Paperback</a>
+      <a class="btn btn-kindle" href="https://www.amazon.com/dp/B0HM2WZM7C">Kindle</a>
+    </div>
+  </div>
+</div>
+
+<header class="hero" id="top">
   <div class="wrap">
     <div>
-      <p class="tag">A textbook from the region, for the region</p>
       <h1>Cybersecurity in the Gulf</h1>
       <p class="sub">Foundations, Regulation, and Practice for the GCC States</p>
-      <div class="actions">
-        <a class="button primary" id="buy" href="https://www.amazon.com/dp/B0HM6QFZDB">Paperback on Amazon</a>
-        <a class="button primary" href="https://www.amazon.com/dp/B0HM2WZM7C">Kindle on Amazon</a>
-        <a class="button secondary" href="https://github.com/SiteQ8/Cybersecurity-in-the-Gulf">Companion materials</a>
+      <p class="promise">The threats, the laws and the practice of all six Gulf states in one textbook, written in the region for the people who defend it.</p>
+      <div class="buy">
+        <a class="btn btn-paper" href="https://www.amazon.com/dp/B0HM6QFZDB">Buy the paperback</a>
+        <a class="btn btn-kindle" href="https://www.amazon.com/dp/B0HM2WZM7C">Buy the Kindle edition</a>
       </div>
-      <p class="author">Ali AlEnezi, 2026 edition. Paperback and Kindle, on sale now.</p>
-      <p class="isbn">ISBN 979-8178793312 &nbsp;·&nbsp; Independently published &nbsp;·&nbsp; 7 by 10 inches, over 330 pages</p>
+      <dl class="facts">
+        <dt>Paperback</dt><dd>7 by 10 inches, over 330 pages, ISBN 979-8178793312</dd>
+        <dt>Kindle</dt><dd>Searchable, with every diagram described in words</dd>
+        <dt>Author</dt><dd>Ali AlEnezi, first edition, 2026</dd>
+      </dl>
     </div>
-    <img src="cover.png" alt="The cover: Cybersecurity in the Gulf, on deep navy with a gold star and cross lattice" width="300" height="429">
+    <figure>
+      <img src="img/book-desk.webp" width="1400" height="1089" fetchpriority="high" alt="The paperback of Cybersecurity in the Gulf standing on a walnut desk beside a brass dallah and a small coffee cup, a Gulf city skyline glowing through the window behind it">
+    </figure>
   </div>
 </header>
 
 <main>
-  <section id="buy-note">
-    <h2>On sale now on Amazon</h2>
-    <p>Both editions are on sale: the paperback at 7 by 10 inches, and the Kindle edition.</p>
-    <p class="buy"><a class="button primary" href="https://www.amazon.com/dp/B0HM6QFZDB">Paperback on Amazon</a> <a class="button primary" href="https://www.amazon.com/dp/B0HM2WZM7C">Kindle on Amazon</a></p>
-    <p>The book is sold, not downloaded: nothing on this site or in the companion repository contains the text.</p>
-    <div class="stats">
-      <div class="stat"><b>23</b><span>chapters in four parts</span></div>
-      <div class="stat"><b>6</b><span>states covered in every chapter</span></div>
-      <div class="stat"><b>12</b><span>appendices, four instruments in depth</span></div>
-      <div class="stat"><b>37</b><span>diagrams drawn for the book</span></div>
-      <div class="stat"><b>69</b><span>exercises and review sets</span></div>
-    </div>
-  </section>
-
-  <section>
-    <h2>Why this book exists</h2>
-    <p>Every cybersecurity textbook in use in the Gulf was written somewhere else, for somewhere else. This one treats the six states of the Gulf Cooperation Council as a single cyber theatre: shared infrastructure that runs on desalinated water, exported energy and digital government; shared adversaries who have targeted the region since the Shamoon attacks of 2012; national authorities built within the same decade; and six legal frames that differ in the detail that decides what a security programme must contain.</p>
-    <p>It is written for universities, for government and for practitioners, and it is honest about where capacity is thin, where laws are incomplete and where the threat environment is harsher than elsewhere.</p>
-  </section>
-
-  <section>
-    <h2>Inside the 2026 edition: twenty three chapters</h2>
-    <ol class="chapters">
-      <li class="part"><h3>Part I: The Gulf Cyber Landscape</h3></li>
-      <li><h3>The Gulf as a Cyber Theatre</h3><p>Six states, one neighbourhood; the dependency stack of critical infrastructure; the six amplifiers that shape the region's risk; the digital transformation wave; what maturity indices measure and miss.</p></li>
-      <li><h3>Threat Actors and Landmark Incidents</h3><p>The adversary spectrum; Shamoon and its return; the Triton safety system attack; the Qatar News Agency incident; the hacktivist era from 2023 through the 2026 conflict spillover; ransomware and fraud; the pattern across all of it.</p></li>
-      <li><h3>National Cybersecurity Governance</h3><p>Three governance archetypes; the national authority, CERT, strategy and baseline of each state; a side by side comparison; the GCC ministerial committee, the Arab council and the international structures; how to engage the authorities.</p></li>
-      <li><h3>Laws, Regulations, and Standards</h3><p>The legal stack; cybercrime statutes; data protection regimes and free zones; national control baselines; central banks, telecoms, cloud and residency; international standards; the crosswalk method; the incident notification register.</p></li>
-      <li class="part"><h3>Part II: Foundations with a Regional Lens</h3></li>
-      <li><h3>Principles of Security Engineering and Risk</h3><p>Safety and resilience as security properties; threat modelling with a state aligned adversary assumed; risk management as a regulatory obligation; the design principles the region's incidents tested; the architect's role in a vendor heavy region; assurance within the cybercrime laws.</p></li>
-      <li><h3>Identity, Access and National Digital Identity</h3><p>The identity lifecycle in a high turnover workforce; authentication ranked by resistance to the region's fraud; privileged and third party access; the six national identity platforms and their shared architecture; federation; the fraud patterns and the controls that defeat them.</p></li>
-      <li><h3>Cryptography and Trust Infrastructure</h3><p>Building blocks; the global and national public key infrastructures; certificate lifetimes and Certificate Transparency; keys, hardware security modules and national cryptographic standards; a post quantum readiness programme.</p></li>
-      <li><h3>Network and Cloud Security, Residency and Sovereignty</h3><p>From perimeter to zones and zero trust; the services the region's adversaries attack most; the cloud regions of the Gulf; classification driven architecture under the national cloud and residency rules; operating cloud securely.</p></li>
-      <li><h3>Application Security and Open Banking</h3><p>The secure development lifecycle at the vendor boundary; OWASP standards as acceptance criteria; the open banking and open finance regimes of the six states and their shared trust model; interfaces; the software supply chain; national scale applications and vulnerability disclosure.</p></li>
-      <li><h3>Data Protection and Privacy Engineering</h3><p>From the laws' principles to engineering requirements; the data map and classification; technical controls; consent, rights requests, impact assessments and the officer; a cross border transfer decision method; breach handling within the clocks.</p></li>
-      <li><h3>Security Architecture in Practice</h3><p>The architect's job in a region that buys its systems; the principles the region does not negotiate; the review path with three artefacts and three gates; reference architectures; assessing vendor applications; the anti patterns that keep returning.</p></li>
-      <li><h3>Zero Trust Architecture</h3><p>What zero trust is and is not; why the region's incidents argue for it; identity foundation, device posture, policy engine, brokered access, segmentation and telemetry; a programme sequenced by consequence; the plant and the cloud; the measures a board can read.</p></li>
-      <li><h3>Post Quantum Migration</h3><p>The threat stated honestly; the 2024 standards, hybrid deployments and the 2030 and 2035 timelines; where vulnerable cryptography hides, ranked by lifetime; the cryptographic bill of materials as first deliverable; migrating transport, hardware, PKI, applications, firmware, payments and archives; governing the programme.</p></li>
-      <li class="part"><h3>Part III: Sectors and Operations</h3></li>
-      <li><h3>Critical Infrastructure and Operational Technology</h3><p>The industrial estate of the six states; how operational technology differs; IEC 62443 and the regional controls; the attack patterns that reached plants; the controls that matter most; incident response and cyber ranges.</p></li>
-      <li><h3>Telecommunications and Digital Infrastructure</h3><p>The operators and regulators; submarine cables and the Red Sea chokepoint; signalling abuse, fake base stations and SIM swap; registries, exchange points, routing and time; national network resilience; the operators as the region's security providers.</p></li>
-      <li><h3>Healthcare Security</h3><p>The six health systems and their national platforms; health data as the most sensitive category; the hospital as a cyber-physical estate; the Kuwait Ministry of Health case; insurers, laboratories and device manufacturers; what the pandemic applications taught.</p></li>
-      <li><h3>Financial Services Security</h3><p>Central banks and national payment infrastructures; the obligations of a Gulf bank; SWIFT, cards and instant payments; fraud as a social attack; cyber and operational resilience; sector cooperation as a control.</p></li>
-      <li><h3>Government, Smart Cities and Digital Services</h3><p>Digital government platforms and their shared architecture; secure by design; smart cities; securing events; procurement and vendors; trust in official channels.</p></li>
-      <li><h3>Security Operations, Threat Intelligence and Incident Response</h3><p>Operations engineered against the regional threat model; intelligence requirements and sources; brand protection from the certificate; the incident lifecycle with notification and communications tracks; exercises and metrics.</p></li>
-      <li><h3>Offensive Security and Assurance</h3><p>The legal frame for testing in the six states; the assurance ladder from scanning to intelligence led red teaming; scoping tests of applications, networks, people, sites, cloud and plants without harm; findings to closure; building the capability.</p></li>
-      <li><h3>People, Culture and Workforce</h3><p>Awareness that changes behaviour; insider risk in an expatriate workforce; national talent programmes and the universities' task; women in cybersecurity; ethics, law and research; leading security.</p></li>
-      <li class="part"><h3>Part IV: Horizons</h3></li>
-      <li><h3>Emerging Technologies</h3><p>Artificial intelligence on both sides of the contest; quantum in context; fifth generation networks and the Internet of things; space systems and navigation; a method for adopting technology securely.</p></li>
-      <li><h3>Cyber Resilience and National Strategy</h3><p>From compliance to resilience; the six national strategies compared; public private partnership; regional cooperation and harmonisation; the Gulf in the international order; the road ahead.</p></li>
-    </ol>
-    <div class="appx"><p>Appendices: a regulatory quick reference for all six states, a fourteen week course map, the open source companions used in the exercises, four instruments treated in depth (Kuwait's National Basic Cybersecurity Controls, Saudi Arabia's ECC-2:2024, the Central Bank of Kuwait's resilience framework and Qatar's National Information Assurance Standard), a chronology, acronyms, a research agenda for universities, a glossary and an index.</p></div>
-  </section>
-
-  <section>
-    <h2>Drawn for the region</h2>
-    <div class="teaser">
-      <img src="map.png" alt="Map of the six GCC states with each national cybersecurity authority and its founding year" width="1100" height="760">
-      <div>
-        <p>Every diagram in the book was drawn for it: the dependency stack of Gulf infrastructure, the Triton intrusion path, the three governance archetypes, the legal stack, the first 72 hours of an incident, the plant by Purdue level, the hospital as a cyber-physical estate, the assurance ladder, and this map of the six national authorities with the year each was established.</p>
-        <p>Eight stories, told plainly, run through Chapter 2: Dhahran on the twenty seventh night of Ramadan, Ras Laffan two weeks later, the plant that stopped itself, Doha after midnight, Kuwait's two Septembers, Manama's summer of 2019, the Emirates' hundred hours, and Muscat, the attack that did not happen.</p>
+  <section id="look">
+    <div class="wrap">
+      <h2>Look inside</h2>
+      <p class="lead">Six pages from the paperback, exactly as printed. Select a page to read it at full size.</p>
+      <div class="pages">
+        <a href="#page-1"><img src="img/look-1-thumb.webp" width="460" height="657" loading="lazy" alt="The opening page of Part I"><span>Each part opens with original art.</span></a>
+        <a href="#page-2"><img src="img/look-2-thumb.webp" width="460" height="657" loading="lazy" alt="The opening page of Chapter 1 with its learning objectives"><span>Every chapter starts with learning objectives.</span></a>
+        <a href="#page-3"><img src="img/look-3-thumb.webp" width="460" height="657" loading="lazy" alt="A page of Chapter 2 telling the Dhahran story of 2012"><span>Eight regional incidents, told as stories.</span></a>
+        <a href="#page-4"><img src="img/look-4-thumb.webp" width="460" height="657" loading="lazy" alt="A page with the Triton intrusion path diagram"><span>Thirty seven diagrams drawn for the book.</span></a>
+        <a href="#page-5"><img src="img/look-5-thumb.webp" width="460" height="657" loading="lazy" alt="A page of Appendix D listing Kuwait's national controls"><span>Four national instruments, control by control.</span></a>
+        <a href="#page-6"><img src="img/look-6-thumb.webp" width="460" height="657" loading="lazy" alt="A page with a practice case on security architecture review"><span>Practice cases from the region's work.</span></a>
       </div>
     </div>
   </section>
 
-  <section>
-    <h2>For universities</h2>
-    <p>The book was written to be taught. Each chapter opens with learning objectives and closes with a summary, key terms, review questions, research exercises and link checked sources, and every chapter covers all six states. A fourteen week course map with learning outcomes is in the companion, and lecturers who adopt the book can request a question bank with answers and a lecture deck for every chapter through the repository. A research agenda for the region's universities is Appendix J.</p>
-  </section>
+  <div class="box" id="page-1" role="dialog" aria-label="Sample page 1 of 6"><img src="img/look-1.webp" width="1100" height="1571" loading="lazy" alt="Part I opening page: the title The Gulf Cyber Landscape above an illustration of a Gulf coastal city linked by gold network lines"><p>Each part opens with original art. This is Part I, The Gulf Cyber Landscape.</p><nav><a href="#page-6">Previous page</a><a href="#look">Close</a><a href="#page-2">Next page</a></nav></div>
+  <div class="box" id="page-2" role="dialog" aria-label="Sample page 2 of 6"><img src="img/look-2.webp" width="1100" height="1571" loading="lazy" alt="Chapter 1 opening page: The Gulf as a Cyber Theatre, with a box of six learning objectives and the first paragraphs"><p>Every chapter starts with learning objectives and closes with a summary, key terms, review questions, exercises and sources.</p><nav><a href="#page-1">Previous page</a><a href="#look">Close</a><a href="#page-3">Next page</a></nav></div>
+  <div class="box" id="page-3" role="dialog" aria-label="Sample page 3 of 6"><img src="img/look-3.webp" width="1100" height="1571" loading="lazy" alt="Chapter 2 page with the section Eight stories, told plainly, and the story Dhahran, the night the screens went dark"><p>Chapter 2 tells eight regional incidents as stories, starting with Dhahran in 2012.</p><nav><a href="#page-2">Previous page</a><a href="#look">Close</a><a href="#page-4">Next page</a></nav></div>
+  <div class="box" id="page-4" role="dialog" aria-label="Sample page 4 of 6"><img src="img/look-4.webp" width="1100" height="1571" loading="lazy" alt="Chapter 2 page with Figure 2.2, the Triton intrusion path from the office network to the safety controllers, and the lessons drawn from it"><p>Thirty seven diagrams drawn for the book, like the Triton intrusion path.</p><nav><a href="#page-3">Previous page</a><a href="#look">Close</a><a href="#page-5">Next page</a></nav></div>
+  <div class="box" id="page-5" role="dialog" aria-label="Sample page 5 of 6"><img src="img/look-5.webp" width="1100" height="1571" loading="lazy" alt="Appendix D page describing the scope and design of Kuwait's National Basic Cybersecurity Controls and the start of the table of core controls"><p>Four national instruments opened control by control. This is Kuwait's NBCC in Appendix D.</p><nav><a href="#page-4">Previous page</a><a href="#look">Close</a><a href="#page-6">Next page</a></nav></div>
+  <div class="box" id="page-6" role="dialog" aria-label="Sample page 6 of 6"><img src="img/look-6.webp" width="1100" height="1571" loading="lazy" alt="Chapter 11 page on assessing vendor applications, with the practice case The review that moved a database"><p>Practice cases show the work as it is done in the region.</p><nav><a href="#page-5">Previous page</a><a href="#look">Close</a><a href="#page-1">Next page</a></nav></div>
 
-  <section>
-    <h2>Three readers</h2>
-    <div class="readers">
-      <div><h3>Lecturers and students</h3><p>Each chapter opens with learning objectives and closes with a summary, key terms, review questions, research exercises and sources. The course map turns Part I into the first unit of a semester.</p></div>
-      <div><h3>Officials and regulators</h3><p>The governance and legal chapters and the quick reference describe every national authority, instrument and cooperation structure, written to be cited in briefings.</p></div>
-      <div><h3>Practitioners</h3><p>The crosswalk method and the notification register are built for reuse, and the companion tools compute deadlines, map frameworks and model plants.</p></div>
+  <section class="mist" id="states">
+    <div class="wrap states">
+      <img src="map.png" width="1100" height="760" loading="lazy" alt="Map of the six GCC states with each national cybersecurity authority and the year it was established">
+      <div>
+        <h2>Every chapter covers all six states</h2>
+        <p class="lead">Most textbooks treat the Gulf as a footnote. This one treats Bahrain, Kuwait, Oman, Qatar, Saudi Arabia and the United Arab Emirates as one cyber theatre, with their own laws, regulators and incidents in every chapter.</p>
+        <ul class="authorities">
+          <li><b>Saudi Arabia</b><span>National Cybersecurity Authority, 2017</span></li>
+          <li><b>United Arab Emirates</b><span>Cybersecurity Council, 2020</span></li>
+          <li><b>Bahrain</b><span>National Cyber Security Centre, 2020</span></li>
+          <li><b>Oman</b><span>Cyber Defence Centre, 2020</span></li>
+          <li><b>Qatar</b><span>National Cyber Security Agency, 2021</span></li>
+          <li><b>Kuwait</b><span>National Cyber Security Center, 2022</span></li>
+        </ul>
+      </div>
     </div>
   </section>
 
-  <section>
-    <h2>Open companions</h2>
-    <p>The exercises use open source tools built in the region and published on GitHub under SiteQ8, among them:</p>
-    <ul class="tools">
-      <li><a href="https://najjab.3li.info">Najjab</a>, who must be notified and by when after an incident, across the six states and three free zones.</li>
-      <li><a href="https://sadu.3li.info">Sadu</a>, a register for the Central Bank of Kuwait's resilience framework with a crosswalk to international standards.</li>
-      <li><a href="https://github.com/SiteQ8/Kuwait-NBCC">Kuwait NBCC Toolkit</a>, a compliance tool for the 2026 national baseline controls.</li>
-      <li><a href="https://dir.3li.info">Dir'</a> and <a href="https://mirqab.3li.info">Mirqab</a>, cyber ranges modelling a desalination plant and an LNG plant.</li>
-      <li><a href="https://kwtcyberwatch.3li.info">KWTCyberWatch</a> and <a href="https://qacyberwatch.3li.info">QACyberWatch</a>, phishing detection and brand protection from Certificate Transparency logs.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>About the author</h2>
-    <div style="display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap">
-      <img src="author.png" alt="Ali AlEnezi" width="150" height="150" style="border-radius:50%;flex:0 0 auto">
-      <p style="max-width:62ch">Ali AlEnezi is a senior security architect in Kuwait. He leads security architecture at the largest financial institution in the country, chairs the Cyber Risk and Security Committee serving Kuwait and the Gulf, served on the board of one of the largest information technology companies in Kuwait, and maintains a portfolio of open source security tools for the region, several of which are used in the book's exercises.</p>
+  <section class="parts-band night" id="contents">
+    <div class="wrap">
+      <h2>Four parts, twenty three chapters</h2>
+      <p class="lead">From the landscape and the law to the foundations, the sectors and what comes next. Each part opens with its own art in the book.</p>
+      <div class="parts">
+        <article class="part">
+          <img src="img/part1.webp" width="720" height="960" loading="lazy" alt="Art for Part I: a Gulf coastal city at blue hour with towers, a desalination plant, tankers and dhows linked by gold lines of light">
+          <p class="num">Part I</p>
+          <h3>The Gulf Cyber Landscape</h3>
+          <p class="count">Chapters 1 to 4</p>
+          <details>
+            <summary>Show the chapters</summary>
+            <ol start="1">
+              <li><b>The Gulf as a Cyber Theatre.</b> Six states, one neighbourhood; the dependency stack of critical infrastructure; the six amplifiers of the region's risk.</li>
+              <li><b>Threat Actors and Landmark Incidents.</b> Shamoon, Triton, the Qatar News Agency, the hacktivist era to 2026, ransomware and fraud, told as eight stories.</li>
+              <li><b>National Cybersecurity Governance.</b> Three governance archetypes; each state's authority, CERT, strategy and baseline; the GCC structures.</li>
+              <li><b>Laws, Regulations, and Standards.</b> The legal stack, cybercrime and data protection laws, national baselines, the crosswalk method and the notification register.</li>
+            </ol>
+          </details>
+        </article>
+        <article class="part">
+          <img src="img/part2.webp" width="720" height="960" loading="lazy" alt="Art for Part II: carved wooden lattice screens casting star shaped light across a stone floor, with a brass key on a low table">
+          <p class="num">Part II</p>
+          <h3>Foundations with a Regional Lens</h3>
+          <p class="count">Chapters 5 to 13</p>
+          <details>
+            <summary>Show the chapters</summary>
+            <ol start="5">
+              <li><b>Principles of Security Engineering and Risk.</b> Safety and resilience as security properties; threat modelling with a state aligned adversary assumed.</li>
+              <li><b>Identity, Access and National Digital Identity.</b> The six national identity platforms, a high turnover workforce and the fraud that targets both.</li>
+              <li><b>Cryptography and Trust Infrastructure.</b> National PKIs, certificate lifetimes, Certificate Transparency, HSMs and national cryptographic standards.</li>
+              <li><b>Network and Cloud Security, Residency and Sovereignty.</b> The Gulf's cloud regions and classification driven architecture under the residency rules.</li>
+              <li><b>Application Security and Open Banking.</b> The secure development lifecycle at the vendor boundary and the open banking regimes of the six states.</li>
+              <li><b>Data Protection and Privacy Engineering.</b> From the laws' principles to engineering requirements, with a cross border transfer method.</li>
+              <li><b>Security Architecture in Practice.</b> The review path with three artefacts and three gates, reference architectures and vendor assessment.</li>
+              <li><b>Zero Trust Architecture.</b> What zero trust is and is not, and a programme sequenced by consequence for a Gulf organisation.</li>
+              <li><b>Post Quantum Migration.</b> The 2030 and 2035 timelines, the cryptographic bill of materials and migration layer by layer.</li>
+            </ol>
+          </details>
+        </article>
+        <article class="part">
+          <img src="img/part3.webp" width="720" height="960" loading="lazy" alt="Art for Part III: a security operations centre at night with analysts in silhouette before screens of glowing network graphs">
+          <p class="num">Part III</p>
+          <h3>Sectors and Operations</h3>
+          <p class="count">Chapters 14 to 21</p>
+          <details>
+            <summary>Show the chapters</summary>
+            <ol start="14">
+              <li><b>Critical Infrastructure and Operational Technology.</b> The plants of the six states, IEC 62443 and the regional controls, incident response and cyber ranges.</li>
+              <li><b>Telecommunications and Digital Infrastructure.</b> Submarine cables and the Red Sea chokepoint, signalling abuse, fake base stations and SIM swap.</li>
+              <li><b>Healthcare Security.</b> National health platforms, the hospital as a cyber-physical estate and the Kuwait Ministry of Health case.</li>
+              <li><b>Financial Services Security.</b> Central banks, payment infrastructures, SWIFT, cards, instant payments and fraud as a social attack.</li>
+              <li><b>Government, Smart Cities and Digital Services.</b> Digital government platforms, secure by design, events and trust in official channels.</li>
+              <li><b>Security Operations, Threat Intelligence and Incident Response.</b> Operations against the regional threat model, brand protection and the incident lifecycle.</li>
+              <li><b>Offensive Security and Assurance.</b> The legal frame for testing in the six states and the assurance ladder up to intelligence led red teaming.</li>
+              <li><b>People, Culture and Workforce.</b> Awareness that changes behaviour, insider risk, national talent programmes and leading security.</li>
+            </ol>
+          </details>
+        </article>
+        <article class="part">
+          <img src="img/part4.webp" width="720" height="960" loading="lazy" alt="Art for Part IV: dawn seen from orbit over a sea and a desert coastline, with a satellite in the foreground">
+          <p class="num">Part IV</p>
+          <h3>Horizons</h3>
+          <p class="count">Chapters 22 and 23</p>
+          <details>
+            <summary>Show the chapters</summary>
+            <ol start="22">
+              <li><b>Emerging Technologies.</b> Artificial intelligence on both sides, quantum in context, 5G and the Internet of things, space and navigation.</li>
+              <li><b>Cyber Resilience and National Strategy.</b> From compliance to resilience, the six national strategies compared and the road ahead.</li>
+            </ol>
+          </details>
+        </article>
+      </div>
+      <p class="appx-note">Then twelve appendices: a regulatory quick reference for all six states, a fourteen week course map, the open source companions, <a href="#instruments">four instruments in depth</a>, a chronology from 1981 to 2026, acronyms, a research agenda for the region's universities and the notification clocks the instruments state in numbers. A glossary and an index close the book.</p>
     </div>
   </section>
 
-  <section>
-    <h2>Cite and correct</h2>
-    <pre><code>AlEnezi, A. (2026). Cybersecurity in the Gulf: Foundations, Regulation,
-and Practice for the GCC States. First edition.</code></pre>
-    <p>The companion repository carries the course map, templates for the exercises, errata and the links to the open source tools. Found an error? The regulatory landscape changes every year; open an issue with the chapter and page, the sentence as printed, the correction and the official source.</p>
+  <section id="instruments">
+    <div class="wrap instr">
+      <figure>
+        <img src="img/appendices.webp" width="900" height="820" loading="lazy" alt="Art for the Appendices: a heritage archive with bound volumes, a brass astrolabe and a star lattice window">
+        <figcaption>The appendices open with their own art.</figcaption>
+      </figure>
+      <div>
+        <h2>Four instruments, opened control by control</h2>
+        <p class="lead">The appendices take the region's most demanding instruments apart, with crosswalks to ISO/IEC 27001, NIST CSF 2.0, PCI DSS and SWIFT where they apply.</p>
+        <ul class="rows">
+          <li><p class="who">Kuwait, Appendix D</p><h3>National Basic Cybersecurity Controls</h3><p>Decision No. 2 of 2026: all 44 controls, the eighteen month window to 5 October 2027, a roadmap in six phases and the evidence pack.</p></li>
+          <li><p class="who">Saudi Arabia, Appendix E</p><h3>Essential Cybersecurity Controls, ECC-2:2024</h3><p>Four domains, 28 subdomains and 108 main controls, what changed in the second edition and the requirements assessors check first.</p></li>
+          <li><p class="who">Central Bank of Kuwait, Appendix F</p><h3>Cyber and Operational Resilience Framework</h3><p>Three baselines and 876 controls, every domain and subdomain with its count, and how to evidence it at the control area.</p></li>
+          <li><p class="who">Qatar, Appendix G</p><h3>National Information Assurance Standard</h3><p>Version 2.1: 26 domains, 356 controls, the 166 in the mandatory baseline and the two hour incident clock.</p></li>
+          <li><p class="who">UAE, Bahrain and Oman, Appendix K</p><h3>The other three national models</h3><p>The UAE Information Assurance Regulation and the instruments of Bahrain's and Oman's national centres.</p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="mist" id="stories">
+    <div class="wrap">
+      <h2>Eight stories, told plainly</h2>
+      <p class="lead">The region's memory of its own incidents, drawn from the public record and told the way the people who lived them tell them.</p>
+      <ul class="stories">
+        <li><h3>Dhahran, the night the screens went dark</h3><p class="when">Saudi Arabia, 2012</p><p>A wiper reached thousands of machines, and the plants kept running because someone had kept the office and the plant apart.</p></li>
+        <li><h3>Ras Laffan, two weeks later</h3><p class="when">Qatar, 2012</p><p>The same malware reached the gas company's offices, and the trains that turn gas into cargoes ran on.</p></li>
+        <li><h3>The Red Sea coast, the plant that stopped itself</h3><p class="when">Saudi Arabia, 2017</p><p>Attackers reprogrammed a safety system, and a mistake in their own code shut the plant down safely.</p></li>
+        <li><h3>Doha, after midnight</h3><p class="when">Qatar, 2017</p><p>False statements on a national news agency, and the lesson that its password is national infrastructure.</p></li>
+        <li><h3>Kuwait, September twice</h3><p class="when">Kuwait, 2023 and 2024</p><p>Ransomware at the ministry that pays the state's salaries, then an intrusion that took hospital systems offline.</p></li>
+        <li><h3>Manama, a summer of pressure</h3><p class="when">Bahrain, 2019</p><p>Intrusions reached the institutions that make a small state a state, and partnership became the answer.</p></li>
+        <li><h3>The Emirates, a hundred hours</h3><p class="when">United Arab Emirates, 2024</p><p>A denial of service campaign against a bank ran for six days, and was absorbed.</p></li>
+        <li><h3>Muscat, the attack that did not happen</h3><p class="when">Oman, 2018 and 2019</p><p>A state that drills every year and publishes its numbers, and the headline it never had.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="readers">
+    <div class="wrap">
+      <h2>Written for three readers</h2>
+      <div class="readers">
+        <div>
+          <h3>Lecturers and students</h3>
+          <ul>
+            <li>Objectives, a summary, key terms, review questions, exercises and sources in every chapter.</li>
+            <li>A fourteen week course map with learning outcomes.</li>
+            <li>For lecturers who adopt the book: a question bank with answers and a lecture deck for every chapter, on request.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Officials and regulators</h3>
+          <ul>
+            <li>Every national authority, instrument and cooperation structure, side by side.</li>
+            <li>A regulatory quick reference for all six states.</li>
+            <li>The six national strategies compared, written to be cited in briefings.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Practitioners</h3>
+          <ul>
+            <li>The crosswalk method to meet several instruments with one programme.</li>
+            <li>A notification register and the clocks the instruments state in numbers.</li>
+            <li>Reference architectures, a review path and vendor assessment that stand up to a regulator.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mist" id="companions">
+    <div class="wrap">
+      <h2>Open tools for the exercises</h2>
+      <p class="lead">The exercises use open source tools built in the region. They are free on GitHub, and the book shows how to use them.</p>
+      <ul class="tools">
+        <li><a href="https://najjab.3li.info">Najjab</a>, who must be notified and by when after an incident, across the six states and three free zones.</li>
+        <li><a href="https://sadu.3li.info">Sadu</a>, a register for the Central Bank of Kuwait's resilience framework with a crosswalk to international standards.</li>
+        <li><a href="https://github.com/SiteQ8/Kuwait-NBCC">Kuwait NBCC Toolkit</a>, a compliance tool for the 2026 national baseline controls.</li>
+        <li><a href="https://dir.3li.info">Dir'</a> and <a href="https://mirqab.3li.info">Mirqab</a>, cyber ranges modelling a desalination plant and an LNG plant.</li>
+        <li><a href="https://kwtcyberwatch.3li.info">KWTCyberWatch</a> and <a href="https://qacyberwatch.3li.info">QACyberWatch</a>, phishing detection and brand protection from Certificate Transparency logs.</li>
+        <li><a href="https://github.com/SiteQ8/Cybersecurity-in-the-Gulf">The companion repository</a>, with the course map, exercise templates and errata.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="author">
+    <div class="wrap author">
+      <img src="author.png" width="168" height="168" loading="lazy" alt="Ali AlEnezi">
+      <div>
+        <h2>About the author</h2>
+        <p>Ali AlEnezi is a senior security architect in Kuwait. He leads security architecture at the largest financial institution in the country, chairs the Cyber Risk and Security Committee serving Kuwait and the Gulf, served on the board of one of the largest information technology companies in Kuwait, and maintains a portfolio of open source security tools for the region. Several of the tools are used in the book's exercises.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="mist" id="questions">
+    <div class="wrap">
+      <h2>Questions</h2>
+      <div class="faq">
+        <details>
+          <summary>Which edition should I buy?</summary>
+          <p>The paperback is a large format reference to keep on the desk and mark up, with an index and every diagram at print size. The Kindle edition is searchable, travels with you, and carries every diagram with a written description for screen readers.</p>
+        </details>
+        <details>
+          <summary>Does it cover my country?</summary>
+          <p>Yes. Every chapter covers Bahrain, Kuwait, Oman, Qatar, Saudi Arabia and the United Arab Emirates, and the appendices open the national instruments of all six.</p>
+        </details>
+        <details>
+          <summary>How current is it?</summary>
+          <p>It describes the laws, regulations and frameworks as published in 2026, including Kuwait's 2026 baseline controls, the Central Bank of Kuwait's framework of December 2025 and Saudi Arabia's ECC-2:2024. Changes and corrections are listed in the errata in the companion repository.</p>
+        </details>
+        <details>
+          <summary>I teach a course. What is there for me?</summary>
+          <p>The book maps to a fourteen week course, and the course map is in the companion repository. Lecturers who adopt the book can request a question bank with answers and a lecture deck for every chapter by opening an issue in the repository with their institution and course.</p>
+        </details>
+        <details>
+          <summary>Is the text available anywhere for free?</summary>
+          <p>No. The book is sold on Amazon. This site and the companion repository carry the course map, templates, errata and tool links, not the text.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="night final" id="buy">
+    <div class="wrap">
+      <img src="cover.png" width="900" height="1286" loading="lazy" alt="The cover of Cybersecurity in the Gulf">
+      <div>
+        <h2>Get the book</h2>
+        <p>Paperback and Kindle editions are on sale now on Amazon.</p>
+        <div class="buy">
+          <a class="btn btn-paper" href="https://www.amazon.com/dp/B0HM6QFZDB">Buy the paperback</a>
+          <a class="btn btn-kindle" href="https://www.amazon.com/dp/B0HM2WZM7C">Buy the Kindle edition</a>
+        </div>
+      </div>
+    </div>
   </section>
 </main>
 
 <footer>
-  <div class="wrap">Copyright 2026 Ali AlEnezi. All rights reserved. ISBN 979-8178793312. Imprint: Independently published. Set in Pagella, Inter and JetBrains Mono. Diagrams and cover by the author. cyberingulf.3li.info &nbsp;·&nbsp; <a href="https://www.amazon.com/dp/B0HM6QFZDB">Paperback</a> &nbsp;·&nbsp; <a href="https://www.amazon.com/dp/B0HM2WZM7C">Kindle</a></div>
+  <div class="wrap cols">
+    <div>
+      <p><b>Cite the book</b></p>
+      <pre>AlEnezi, A. (2026). Cybersecurity in the Gulf: Foundations, Regulation,
+and Practice for the GCC States. First edition. ISBN 979-8178793312.</pre>
+      <p>Found an error? The regulatory landscape changes every year. <a href="https://github.com/SiteQ8/Cybersecurity-in-the-Gulf/issues">Open an issue</a> with the chapter and page, the sentence as printed, the correction and the official source.</p>
+    </div>
+    <div>
+      <p>Copyright 2026 Ali AlEnezi. All rights reserved.</p>
+      <p>ISBN 979-8178793312. Imprint: Independently published.</p>
+      <p><a href="https://www.amazon.com/dp/B0HM6QFZDB">Paperback</a> and <a href="https://www.amazon.com/dp/B0HM2WZM7C">Kindle</a> on Amazon. <a href="https://github.com/SiteQ8/Cybersecurity-in-the-Gulf">Companion repository</a>.</p>
+      <p>Diagrams and cover by the author. Part opener art and the photograph of the paperback were made with generative image tools.</p>
+    </div>
+  </div>
 </footer>
 </body>
 </html>
